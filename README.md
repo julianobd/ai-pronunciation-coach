@@ -1,13 +1,10 @@
 # AI Pronunciation Coach
 
-A desktop app (Windows-first) that helps you improve spoken English pronunciation
+A desktop app that helps you improve spoken English pronunciation
 through personalized exercises generated from your own pronunciation mistakes.
 
 Single user, no accounts, no cloud storage — all progress, statistics and
 settings live locally in `%LOCALAPPDATA%\PronunciationCoach`.
-
-> The previous web-based version of this project lives untouched in [`Legacy/`](Legacy/)
-> and served as the reference for the analysis pipeline.
 
 ## What it does
 
@@ -42,7 +39,7 @@ Exercise/dialogue generation works with interchangeable providers
 
 | Provider | Default endpoint | Notes |
 |---|---|---|
-| **LMStudio** (default) | `http://localhost:1234/v1` | local, free |
+| **LMStudio** | `http://localhost:1234/v1` | local, free |
 | Ollama | `http://localhost:11434/v1` | local, free |
 | OpenAI | `https://api.openai.com/v1` | needs API key |
 | Gemini | Google REST API | needs API key |
