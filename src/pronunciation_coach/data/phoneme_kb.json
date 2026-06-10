@@ -1,0 +1,364 @@
+{
+  "phonemes": [
+    {
+      "key": "th",
+      "ipa": ["θ"],
+      "display": "th (voiceless, as in 'think')",
+      "articulation_tip": "Place the tip of your tongue lightly between your teeth and blow air out without using your voice. You should feel the air on your tongue tip.",
+      "common_confusions": ["t", "s", "f"],
+      "example_words": ["think", "three", "through", "thank", "thirty", "month", "birthday", "healthy"],
+      "minimal_pairs": [["think", "sink"], ["three", "tree"], ["thin", "tin"], ["thought", "taught"], ["math", "mat"], ["path", "pass"]]
+    },
+    {
+      "key": "th_voiced",
+      "ipa": ["ð"],
+      "display": "th (voiced, as in 'this')",
+      "articulation_tip": "Same tongue position as in 'think' — tongue tip lightly between the teeth — but turn your voice on. Your throat should vibrate.",
+      "common_confusions": ["d", "z", "v"],
+      "example_words": ["this", "that", "they", "mother", "brother", "weather", "together", "other"],
+      "minimal_pairs": [["they", "day"], ["then", "den"], ["though", "dough"], ["breathe", "breeze"], ["other", "udder"]]
+    },
+    {
+      "key": "sh",
+      "ipa": ["ʃ"],
+      "display": "sh (as in 'ship')",
+      "articulation_tip": "Pull your tongue back slightly from the 's' position, round your lips a little, and push air through. The sound is darker and breathier than 's'.",
+      "common_confusions": ["s", "ch", "zh"],
+      "example_words": ["ship", "she", "shop", "wish", "nation", "special", "shoulder", "finish"],
+      "minimal_pairs": [["ship", "sip"], ["she", "see"], ["shine", "sign"], ["wish", "witch"], ["shoe", "sue"]]
+    },
+    {
+      "key": "zh",
+      "ipa": ["ʒ"],
+      "display": "zh (as in 'measure')",
+      "articulation_tip": "Make the 'sh' sound and add voice — your throat vibrates. It is the buzzing twin of 'sh'.",
+      "common_confusions": ["sh", "z", "j"],
+      "example_words": ["measure", "pleasure", "vision", "usual", "decision", "garage", "television"],
+      "minimal_pairs": [["vision", "fission"], ["pleasure", "pressure"]]
+    },
+    {
+      "key": "ch",
+      "ipa": ["tʃ"],
+      "display": "ch (as in 'chair')",
+      "articulation_tip": "Start with your tongue in the 't' position, then release it into 'sh' in one quick burst: t + sh said together.",
+      "common_confusions": ["sh", "j", "t"],
+      "example_words": ["chair", "cheese", "church", "teacher", "watch", "lunch", "kitchen", "question"],
+      "minimal_pairs": [["chair", "share"], ["chip", "ship"], ["watch", "wash"], ["cheap", "sheep"], ["catch", "cash"]]
+    },
+    {
+      "key": "j",
+      "ipa": ["dʒ"],
+      "display": "j (as in 'job')",
+      "articulation_tip": "Like 'ch' but with voice: start at the 'd' position and release into the buzzing 'zh' sound in one burst.",
+      "common_confusions": ["ch", "zh", "y"],
+      "example_words": ["job", "judge", "just", "age", "bridge", "general", "enjoy", "language"],
+      "minimal_pairs": [["joke", "choke"], ["jeep", "cheap"], ["age", "h"], ["jet", "yet"], ["major", "matcher"]]
+    },
+    {
+      "key": "r",
+      "ipa": ["r", "ɹ"],
+      "display": "r (as in 'red')",
+      "articulation_tip": "Curl the tip of your tongue up and back without touching the roof of your mouth, round your lips slightly, and voice the sound. The tongue must not tap or trill.",
+      "common_confusions": ["l", "w"],
+      "example_words": ["red", "right", "really", "around", "problem", "correct", "tomorrow", "library"],
+      "minimal_pairs": [["right", "light"], ["red", "led"], ["rice", "lice"], ["road", "load"], ["pray", "play"], ["crowd", "cloud"]]
+    },
+    {
+      "key": "l",
+      "ipa": ["l", "ɫ"],
+      "display": "l (as in 'light')",
+      "articulation_tip": "Press the tip of your tongue firmly against the ridge behind your upper front teeth and let the sound flow around the sides of the tongue.",
+      "common_confusions": ["r", "w", "n"],
+      "example_words": ["light", "love", "like", "follow", "little", "always", "people", "school"],
+      "minimal_pairs": [["light", "right"], ["led", "red"], ["long", "wrong"], ["collect", "correct"], ["glass", "grass"]]
+    },
+    {
+      "key": "v",
+      "ipa": ["v"],
+      "display": "v (as in 'very')",
+      "articulation_tip": "Touch your upper teeth to your lower lip and push air through with your voice on. Your lip should tingle — if not, you are saying 'w' or 'b'.",
+      "common_confusions": ["w", "b", "f"],
+      "example_words": ["very", "voice", "have", "every", "never", "over", "village", "eleven"],
+      "minimal_pairs": [["very", "berry"], ["vet", "wet"], ["vine", "wine"], ["vest", "west"], ["leave", "leaf"]]
+    },
+    {
+      "key": "w",
+      "ipa": ["w"],
+      "display": "w (as in 'water')",
+      "articulation_tip": "Round your lips into a tight circle as if whistling, then relax them as you voice the sound. Your teeth must not touch your lips.",
+      "common_confusions": ["v", "r"],
+      "example_words": ["water", "would", "week", "always", "away", "question", "language", "twenty"],
+      "minimal_pairs": [["wet", "vet"], ["wine", "vine"], ["west", "vest"], ["while", "vile"]]
+    },
+    {
+      "key": "y",
+      "ipa": ["j"],
+      "display": "y (as in 'yes')",
+      "articulation_tip": "Raise the middle of your tongue close to the roof of your mouth — like a very quick 'ee' gliding into the next vowel.",
+      "common_confusions": ["j"],
+      "example_words": ["yes", "you", "year", "young", "yellow", "use", "music", "few"],
+      "minimal_pairs": [["yet", "jet"], ["year", "jeer"], ["yes", "chess"], ["use", "juice"]]
+    },
+    {
+      "key": "h",
+      "ipa": ["h"],
+      "display": "h (as in 'house')",
+      "articulation_tip": "Breathe out gently as if fogging a mirror, then start the vowel. Do not make it harsh or scratchy in the throat.",
+      "common_confusions": [],
+      "example_words": ["house", "happy", "hello", "behind", "perhaps", "whole", "history", "ahead"],
+      "minimal_pairs": [["hat", "at"], ["hear", "ear"], ["hold", "old"], ["hair", "air"], ["hate", "eight"]]
+    },
+    {
+      "key": "ng",
+      "ipa": ["ŋ"],
+      "display": "ng (as in 'sing')",
+      "articulation_tip": "Press the back of your tongue against the soft palate (like 'g') and let the sound come through your nose. Do not release into a 'g' or 'k' at the end.",
+      "common_confusions": ["n", "g"],
+      "example_words": ["sing", "thing", "long", "morning", "going", "english", "thinking", "bring"],
+      "minimal_pairs": [["sing", "sin"], ["thing", "thin"], ["ban", "bang"], ["ran", "rang"], ["wing", "win"]]
+    },
+    {
+      "key": "s",
+      "ipa": ["s"],
+      "display": "s (as in 'see')",
+      "articulation_tip": "Place your tongue tip close to the ridge behind your upper teeth and push a thin, sharp stream of air — like a hissing snake, no voice.",
+      "common_confusions": ["z", "sh", "th"],
+      "example_words": ["see", "say", "city", "house", "soft", "answer", "listen", "sister"],
+      "minimal_pairs": [["sip", "zip"], ["sink", "think"], ["see", "she"], ["price", "prize"]]
+    },
+    {
+      "key": "z",
+      "ipa": ["z"],
+      "display": "z (as in 'zoo')",
+      "articulation_tip": "Same position as 's' but with voice on — your throat buzzes like a bee. Word-final 's' is often actually 'z' (dogs, plays).",
+      "common_confusions": ["s", "th_voiced", "zh"],
+      "example_words": ["zoo", "zero", "easy", "music", "busy", "always", "because", "dogs"],
+      "minimal_pairs": [["zip", "sip"], ["zoo", "sue"], ["prize", "price"], ["eyes", "ice"], ["lazy", "lacy"]]
+    },
+    {
+      "key": "f",
+      "ipa": ["f"],
+      "display": "f (as in 'fine')",
+      "articulation_tip": "Touch your upper teeth to your lower lip and blow air through without voice — the voiceless twin of 'v'.",
+      "common_confusions": ["v", "p", "th"],
+      "example_words": ["fine", "five", "after", "before", "coffee", "telephone", "different", "enough"],
+      "minimal_pairs": [["fan", "van"], ["fine", "vine"], ["leaf", "leave"], ["fast", "past"], ["free", "three"]]
+    },
+    {
+      "key": "p",
+      "ipa": ["p"],
+      "display": "p (as in 'pen')",
+      "articulation_tip": "Close both lips, build up air, and release with a small puff (aspiration) at the start of words. Hold a paper in front of your mouth — it should move.",
+      "common_confusions": ["b", "f"],
+      "example_words": ["pen", "paper", "people", "happy", "open", "stop", "important", "complete"],
+      "minimal_pairs": [["pen", "ben"], ["pat", "bat"], ["pig", "big"], ["cap", "cab"], ["pull", "full"]]
+    },
+    {
+      "key": "b",
+      "ipa": ["b"],
+      "display": "b (as in 'big')",
+      "articulation_tip": "Close both lips and release with your voice on — no puff of air. Your throat vibrates from the very start.",
+      "common_confusions": ["p", "v"],
+      "example_words": ["big", "book", "about", "number", "remember", "table", "job", "habit"],
+      "minimal_pairs": [["bat", "pat"], ["big", "pig"], ["berry", "very"], ["cab", "cap"], ["robe", "rope"]]
+    },
+    {
+      "key": "t",
+      "ipa": ["t"],
+      "display": "t (as in 'time')",
+      "articulation_tip": "Tap your tongue tip on the ridge behind your upper teeth and release with a small puff of air at the start of words.",
+      "common_confusions": ["d", "th", "ch"],
+      "example_words": ["time", "two", "today", "better", "city", "want", "start", "little"],
+      "minimal_pairs": [["time", "dime"], ["tin", "thin"], ["two", "do"], ["bat", "bad"], ["wrote", "rode"]]
+    },
+    {
+      "key": "d",
+      "ipa": ["d"],
+      "display": "d (as in 'day')",
+      "articulation_tip": "Same tongue position as 't' (tip on the ridge behind the upper teeth) but with voice on and no puff of air.",
+      "common_confusions": ["t", "th_voiced"],
+      "example_words": ["day", "do", "down", "idea", "ready", "side", "added", "middle"],
+      "minimal_pairs": [["day", "they"], ["dime", "time"], ["bad", "bat"], ["ladder", "latter"], ["den", "then"]]
+    },
+    {
+      "key": "k",
+      "ipa": ["k"],
+      "display": "k (as in 'key')",
+      "articulation_tip": "Press the back of your tongue against the soft palate and release with a puff of air, voice off.",
+      "common_confusions": ["g"],
+      "example_words": ["key", "can", "back", "school", "because", "weekend", "market", "quick"],
+      "minimal_pairs": [["coat", "goat"], ["back", "bag"], ["clock", "clog"], ["came", "game"]]
+    },
+    {
+      "key": "g",
+      "ipa": ["g", "ɡ"],
+      "display": "g (as in 'go')",
+      "articulation_tip": "Same place as 'k' (back of the tongue on the soft palate) but voiced and without the puff of air.",
+      "common_confusions": ["k", "ng"],
+      "example_words": ["go", "get", "good", "again", "begin", "bigger", "August", "forget"],
+      "minimal_pairs": [["goat", "coat"], ["game", "came"], ["bag", "back"], ["gold", "cold"]]
+    },
+    {
+      "key": "m",
+      "ipa": ["m"],
+      "display": "m (as in 'man')",
+      "articulation_tip": "Close your lips and hum — the sound comes entirely through your nose.",
+      "common_confusions": ["n"],
+      "example_words": ["man", "make", "more", "summer", "family", "name", "from", "important"],
+      "minimal_pairs": [["man", "nan"], ["map", "nap"], ["sum", "sun"], ["might", "night"]]
+    },
+    {
+      "key": "n",
+      "ipa": ["n"],
+      "display": "n (as in 'no')",
+      "articulation_tip": "Touch your tongue tip to the ridge behind your upper teeth and let the sound come through your nose.",
+      "common_confusions": ["m", "ng", "l"],
+      "example_words": ["no", "name", "nine", "dinner", "again", "begin", "morning", "until"],
+      "minimal_pairs": [["night", "might"], ["sun", "sum"], ["sin", "sing"], ["no", "low"]]
+    },
+    {
+      "key": "ih",
+      "ipa": ["ɪ"],
+      "display": "short i (as in 'sit')",
+      "articulation_tip": "Relax your tongue and lips and keep the sound very short. It is lazier and more central than 'ee' — the lips do not smile.",
+      "common_confusions": ["ee", "eh"],
+      "example_words": ["sit", "this", "big", "little", "minute", "women", "busy", "gym"],
+      "minimal_pairs": [["sit", "seat"], ["ship", "sheep"], ["live", "leave"], ["fill", "feel"], ["hit", "heat"], ["it", "eat"]]
+    },
+    {
+      "key": "ee",
+      "ipa": ["i", "iː"],
+      "display": "long ee (as in 'see')",
+      "articulation_tip": "Smile — spread your lips wide and raise your tongue high and forward. Hold the sound longer than short 'i'.",
+      "common_confusions": ["ih"],
+      "example_words": ["see", "eat", "need", "people", "teacher", "easy", "believe", "key"],
+      "minimal_pairs": [["seat", "sit"], ["sheep", "ship"], ["leave", "live"], ["feel", "fill"], ["beach", "bitch"]]
+    },
+    {
+      "key": "ae",
+      "ipa": ["æ"],
+      "display": "a (as in 'cat')",
+      "articulation_tip": "Open your mouth wide and push your tongue low and forward, almost like preparing to bite an apple. It is more open than 'e' in 'bed'.",
+      "common_confusions": ["eh", "uh", "ah"],
+      "example_words": ["cat", "have", "man", "happy", "answer", "family", "stand", "exactly"],
+      "minimal_pairs": [["bad", "bed"], ["man", "men"], ["cat", "cut"], ["hat", "hot"], ["sad", "said"]]
+    },
+    {
+      "key": "eh",
+      "ipa": ["ɛ"],
+      "display": "e (as in 'bed')",
+      "articulation_tip": "Mouth half-open, tongue mid-front and relaxed. Shorter and less open than 'a' in 'cat'.",
+      "common_confusions": ["ae", "ih", "ay"],
+      "example_words": ["bed", "said", "get", "very", "seven", "friend", "ready", "weather"],
+      "minimal_pairs": [["bed", "bad"], ["men", "man"], ["pen", "pan"], ["said", "sad"], ["letter", "latter"]]
+    },
+    {
+      "key": "uh",
+      "ipa": ["ʌ"],
+      "display": "u (as in 'cup')",
+      "articulation_tip": "A short, relaxed central sound — mouth slightly open, tongue resting in the middle, like a quick grunt 'uh'.",
+      "common_confusions": ["ah", "ae", "schwa"],
+      "example_words": ["cup", "but", "love", "money", "month", "country", "enough", "sunday"],
+      "minimal_pairs": [["cup", "cap"], ["cut", "cat"], ["luck", "lack"], ["fun", "fan"], ["color", "collar"]]
+    },
+    {
+      "key": "schwa",
+      "ipa": ["ə"],
+      "display": "schwa (as in 'about')",
+      "articulation_tip": "The laziest sound in English: totally relaxed mouth, very short 'uh'. Most unstressed vowels become schwa — do not pronounce them fully.",
+      "common_confusions": ["uh", "ah"],
+      "example_words": ["about", "ago", "problem", "banana", "today", "again", "support", "police"],
+      "minimal_pairs": []
+    },
+    {
+      "key": "ah",
+      "ipa": ["ɑ", "a"],
+      "display": "ah (as in 'father')",
+      "articulation_tip": "Open your mouth wide and keep your tongue low and back, like showing a doctor your throat: 'aaah'.",
+      "common_confusions": ["uh", "aw", "ae"],
+      "example_words": ["father", "hot", "stop", "watch", "problem", "doctor", "garden", "calm"],
+      "minimal_pairs": [["hot", "hat"], ["cop", "cup"], ["lock", "luck"], ["shot", "shut"]]
+    },
+    {
+      "key": "aw",
+      "ipa": ["ɔ"],
+      "display": "aw (as in 'law')",
+      "articulation_tip": "Round your lips slightly and keep your tongue low and back — between 'ah' and 'oh'.",
+      "common_confusions": ["ah", "oh"],
+      "example_words": ["law", "call", "thought", "daughter", "always", "water", "because", "August"],
+      "minimal_pairs": [["caught", "cot"], ["law", "low"], ["ball", "bowl"], ["bought", "boat"]]
+    },
+    {
+      "key": "oo_short",
+      "ipa": ["ʊ"],
+      "display": "short oo (as in 'book')",
+      "articulation_tip": "Lips loosely rounded, tongue relaxed and pulled back, very short sound. Less rounded and shorter than 'oo' in 'food'.",
+      "common_confusions": ["oo", "uh"],
+      "example_words": ["book", "good", "look", "would", "put", "woman", "sugar", "full"],
+      "minimal_pairs": [["full", "fool"], ["pull", "pool"], ["look", "luke"], ["could", "cooed"]]
+    },
+    {
+      "key": "oo",
+      "ipa": ["u", "uː"],
+      "display": "long oo (as in 'food')",
+      "articulation_tip": "Round your lips into a tight small circle and push them forward; hold the sound long.",
+      "common_confusions": ["oo_short"],
+      "example_words": ["food", "two", "school", "blue", "June", "afternoon", "choose", "through"],
+      "minimal_pairs": [["fool", "full"], ["pool", "pull"], ["food", "foot"], ["suit", "soot"]]
+    },
+    {
+      "key": "oh",
+      "ipa": ["oʊ"],
+      "display": "o (as in 'go')",
+      "articulation_tip": "This is two sounds glided together: start at 'o' and finish with lips rounding into 'oo'. Do not cut it short into a single pure 'o'.",
+      "common_confusions": ["aw", "oo"],
+      "example_words": ["go", "no", "home", "open", "phone", "hello", "window", "tomorrow"],
+      "minimal_pairs": [["low", "law"], ["boat", "bought"], ["coast", "cost"], ["woke", "walk"]]
+    },
+    {
+      "key": "ay",
+      "ipa": ["eɪ"],
+      "display": "ay (as in 'day')",
+      "articulation_tip": "Glide from 'e' toward 'ee': start with the mouth half open and finish with a slight smile. It is a moving sound, not a flat 'e'.",
+      "common_confusions": ["eh", "eye"],
+      "example_words": ["day", "say", "make", "eight", "great", "rain", "table", "always"],
+      "minimal_pairs": [["pain", "pen"], ["late", "let"], ["taste", "test"], ["paper", "pepper"]]
+    },
+    {
+      "key": "eye",
+      "ipa": ["aɪ"],
+      "display": "i (as in 'time')",
+      "articulation_tip": "Glide from a wide-open 'ah' up toward 'ee'. Open big, finish with a small smile.",
+      "common_confusions": ["ay", "ah"],
+      "example_words": ["time", "like", "my", "find", "night", "while", "quite", "describe"],
+      "minimal_pairs": [["like", "lake"], ["my", "may"], ["time", "tame"], ["find", "fond"]]
+    },
+    {
+      "key": "ow",
+      "ipa": ["aʊ"],
+      "display": "ow (as in 'now')",
+      "articulation_tip": "Glide from a wide-open 'ah' into rounded 'oo' — open big, then round your lips.",
+      "common_confusions": ["oh", "ah"],
+      "example_words": ["now", "how", "house", "about", "down", "around", "thousand", "mountain"],
+      "minimal_pairs": [["now", "no"], ["down", "dawn"], ["found", "fond"], ["town", "tone"]]
+    },
+    {
+      "key": "oy",
+      "ipa": ["ɔɪ"],
+      "display": "oy (as in 'boy')",
+      "articulation_tip": "Glide from rounded 'aw' into 'ee' — start with round lips and finish with a smile.",
+      "common_confusions": ["oh", "eye"],
+      "example_words": ["boy", "enjoy", "voice", "choice", "point", "noise", "employ", "avoid"],
+      "minimal_pairs": [["boy", "buy"], ["toy", "tie"], ["voice", "vice"], ["oil", "isle"]]
+    },
+    {
+      "key": "er",
+      "ipa": ["ɝ", "ər", "ɚ"],
+      "display": "er (as in 'bird')",
+      "articulation_tip": "Curl your tongue up and back as for 'r' and hold it there while voicing the vowel — the whole vowel is r-colored.",
+      "common_confusions": ["uh", "ah"],
+      "example_words": ["bird", "work", "first", "learn", "thirty", "Thursday", "world", "early"],
+      "minimal_pairs": [["work", "walk"], ["bird", "bed"], ["hurt", "heart"], ["first", "fast"]]
+    }
+  ]
+}
