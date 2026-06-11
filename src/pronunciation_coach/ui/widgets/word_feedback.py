@@ -50,10 +50,14 @@ def feedback_html(analysis: UtteranceAnalysis, max_tips: int = 3) -> str:
             info = phoneme_kb.get_info(key)
             if info:
                 practice = ", ".join(info.example_words[:4])
+                pairs = " · ".join(f"{a}–{b}" for a, b in info.minimal_pairs[:3])
+                contrast = (
+                    f"<br/><i>Contrast: {html.escape(pairs)}</i>" if pairs else ""
+                )
                 lines.append(
                     f"<p style='margin-left:12px;'>💡 <b>{html.escape(info.display)}</b>: "
                     f"{html.escape(info.articulation_tip)}<br/>"
-                    f"<i>Practice: {html.escape(practice)}</i></p>"
+                    f"<i>Practice: {html.escape(practice)}</i>{contrast}</p>"
                 )
             if len(seen_keys) >= max_tips:
                 break

@@ -3,8 +3,8 @@
 A desktop app that helps you improve spoken English pronunciation
 through personalized exercises generated from your own pronunciation mistakes.
 
-Single user, no accounts, no cloud storage — all progress, statistics and
-settings live locally in `%LOCALAPPDATA%\PronunciationCoach`.
+Single user, no accounts, no cloud storage.
+All progress, statistics and settings live locally in `%LOCALAPPDATA%\PronunciationCoach`.
 
 ## What it does
 

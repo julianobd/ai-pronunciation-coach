@@ -5,18 +5,62 @@
       "ipa": ["θ"],
       "display": "th (voiceless, as in 'think')",
       "articulation_tip": "Place the tip of your tongue lightly between your teeth and blow air out without using your voice. You should feel the air on your tongue tip.",
-      "common_confusions": ["t", "s", "f"],
-      "example_words": ["think", "three", "through", "thank", "thirty", "month", "birthday", "healthy"],
-      "minimal_pairs": [["think", "sink"], ["three", "tree"], ["thin", "tin"], ["thought", "taught"], ["math", "mat"], ["path", "pass"]]
+      "common_confusions": ["t", "s", "f", "th_voiced"],
+      "spellings": ["th"],
+      "examples": {
+        "initial": ["think", "three", "thank", "thumb", "thirty", "theme", "thick", "thunder", "thread", "Thursday"],
+        "medial": ["birthday", "healthy", "author", "nothing", "athlete", "method", "monthly", "bathroom", "toothpaste", "anything"],
+        "final": ["math", "path", "month", "tooth", "north", "south", "breath", "truth", "worth", "fifth"]
+      },
+      "minimal_pairs": [
+        ["think", "sink"], ["three", "tree"], ["thin", "tin"], ["thought", "taught"],
+        ["math", "mat"], ["path", "pass"], ["thank", "tank"], ["theme", "team"],
+        ["faith", "face"], ["fourth", "fort"], ["three", "free"], ["thirst", "first"],
+        ["bath", "bat"], ["mouth", "mouse"], ["worth", "worse"]
+      ],
+      "practice_sentences": [
+        "I think it's Thursday.",
+        "Thank you for the three things.",
+        "My birthday is this month.",
+        "The author wrote nothing about the method.",
+        "The healthy athlete ran north through the thick forest.",
+        "I thought the math theory was worth a thorough review.",
+        "On the thirtieth of the month, three thoughtful authors discussed the truth."
+      ],
+      "tongue_twisters": [
+        "Thirty-three thirsty thieves thundered through the thicket.",
+        "I thought a thought, but the thought I thought wasn't the thought I thought I thought."
+      ]
     },
     {
       "key": "th_voiced",
       "ipa": ["ð"],
       "display": "th (voiced, as in 'this')",
       "articulation_tip": "Same tongue position as in 'think' — tongue tip lightly between the teeth — but turn your voice on. Your throat should vibrate.",
-      "common_confusions": ["d", "z", "v"],
-      "example_words": ["this", "that", "they", "mother", "brother", "weather", "together", "other"],
-      "minimal_pairs": [["they", "day"], ["then", "den"], ["though", "dough"], ["breathe", "breeze"], ["other", "udder"]]
+      "common_confusions": ["d", "z", "v", "th"],
+      "spellings": ["th"],
+      "examples": {
+        "initial": ["this", "that", "they", "them", "then", "those", "these", "there", "though", "thus"],
+        "medial": ["mother", "brother", "weather", "together", "other", "father", "leather", "rather", "northern", "southern"],
+        "final": ["breathe", "smooth", "bathe", "soothe", "clothe", "loathe", "with", "teethe"]
+      },
+      "minimal_pairs": [
+        ["they", "day"], ["then", "den"], ["though", "dough"], ["than", "Dan"],
+        ["those", "doze"], ["there", "dare"], ["breathe", "breeze"], ["breathe", "breed"],
+        ["other", "udder"], ["lather", "ladder"], ["clothing", "closing"], ["then", "zen"]
+      ],
+      "practice_sentences": [
+        "They like this and that.",
+        "My mother and father are together.",
+        "The weather is rather nice today.",
+        "My brother would rather stay with them.",
+        "Neither of the brothers bothered about the leather clothing.",
+        "Although they gathered together, the others went farther north."
+      ],
+      "tongue_twisters": [
+        "The mother, the father, and the brother weathered the weather together.",
+        "Whether the weather is warm, whether the weather is hot, we have to put up with the weather, whether we like it or not."
+      ]
     },
     {
       "key": "sh",
@@ -24,8 +68,30 @@
       "display": "sh (as in 'ship')",
       "articulation_tip": "Pull your tongue back slightly from the 's' position, round your lips a little, and push air through. The sound is darker and breathier than 's'.",
       "common_confusions": ["s", "ch", "zh"],
-      "example_words": ["ship", "she", "shop", "wish", "nation", "special", "shoulder", "finish"],
-      "minimal_pairs": [["ship", "sip"], ["she", "see"], ["shine", "sign"], ["wish", "witch"], ["shoe", "sue"]]
+      "spellings": ["sh", "ti", "ci", "ssi", "ch", "s", "ss"],
+      "examples": {
+        "initial": ["ship", "she", "shop", "shoe", "share", "short", "show", "shine", "sheep", "shoulder"],
+        "medial": ["nation", "special", "machine", "mission", "ocean", "patient", "fashion", "pressure", "washing", "sunshine"],
+        "final": ["wish", "finish", "fish", "push", "cash", "fresh", "brush", "crash", "English", "flash"]
+      },
+      "minimal_pairs": [
+        ["ship", "sip"], ["she", "see"], ["shine", "sign"], ["shoe", "sue"],
+        ["shop", "chop"], ["sheep", "cheap"], ["share", "chair"], ["wish", "witch"],
+        ["wash", "watch"], ["cash", "catch"], ["shave", "save"], ["show", "so"],
+        ["mesh", "mess"], ["leash", "lease"]
+      ],
+      "practice_sentences": [
+        "She sells shoes.",
+        "Show me the short way to the shop.",
+        "The shy sheep stood in the sunshine.",
+        "The patient washed the dishes with fresh water.",
+        "The fashion show featured special machines from across the ocean.",
+        "She wished the English mission would finish the publication efficiently."
+      ],
+      "tongue_twisters": [
+        "She sells seashells by the seashore.",
+        "Sheep shouldn't sleep in a shack; sheep should sleep in a shed."
+      ]
     },
     {
       "key": "zh",
@@ -33,26 +99,90 @@
       "display": "zh (as in 'measure')",
       "articulation_tip": "Make the 'sh' sound and add voice — your throat vibrates. It is the buzzing twin of 'sh'.",
       "common_confusions": ["sh", "z", "j"],
-      "example_words": ["measure", "pleasure", "vision", "usual", "decision", "garage", "television"],
-      "minimal_pairs": [["vision", "fission"], ["pleasure", "pressure"]]
+      "spellings": ["si", "su", "ge", "z"],
+      "examples": {
+        "initial": ["genre"],
+        "medial": ["measure", "pleasure", "vision", "usual", "decision", "television", "treasure", "casual", "occasion", "version", "leisure"],
+        "final": ["garage", "massage", "beige", "prestige", "mirage", "collage", "rouge"]
+      },
+      "minimal_pairs": [
+        ["vision", "fission"], ["pleasure", "pressure"], ["composure", "composer"],
+        ["leisure", "ledger"], ["version", "virgin"], ["beige", "bays"], ["rouge", "ruse"]
+      ],
+      "practice_sentences": [
+        "Watching television is my usual pleasure.",
+        "I made the decision to clean the garage.",
+        "She found treasure on a casual occasion.",
+        "The new version of the vision statement was a pleasure to read.",
+        "Measuring leisure time is an unusual decision for television."
+      ],
+      "tongue_twisters": [
+        "The treasure measure brought pleasure beyond measure.",
+        "Usually the unusual division makes a visual decision."
+      ]
     },
     {
       "key": "ch",
-      "ipa": ["tʃ"],
+      "ipa": ["tʃ", "ʧ"],
       "display": "ch (as in 'chair')",
       "articulation_tip": "Start with your tongue in the 't' position, then release it into 'sh' in one quick burst: t + sh said together.",
       "common_confusions": ["sh", "j", "t"],
-      "example_words": ["chair", "cheese", "church", "teacher", "watch", "lunch", "kitchen", "question"],
-      "minimal_pairs": [["chair", "share"], ["chip", "ship"], ["watch", "wash"], ["cheap", "sheep"], ["catch", "cash"]]
+      "spellings": ["ch", "tch", "tu"],
+      "examples": {
+        "initial": ["chair", "cheese", "church", "child", "change", "choose", "chicken", "chapter", "challenge", "cherry"],
+        "medial": ["teacher", "kitchen", "question", "nature", "picture", "future", "watching", "matches", "achieve", "culture"],
+        "final": ["watch", "lunch", "much", "teach", "catch", "beach", "march", "touch", "rich", "speech"]
+      },
+      "minimal_pairs": [
+        ["chair", "share"], ["chip", "ship"], ["watch", "wash"], ["cheap", "sheep"],
+        ["catch", "cash"], ["chin", "shin"], ["choose", "shoes"], ["march", "marsh"],
+        ["witch", "wish"], ["chew", "shoe"], ["cheer", "jeer"], ["choke", "joke"],
+        ["rich", "ridge"], ["batch", "badge"]
+      ],
+      "practice_sentences": [
+        "The teacher sat on a chair.",
+        "I eat cheese for lunch.",
+        "The child watched the chickens in the kitchen.",
+        "Choose a picture of the church for the chapter.",
+        "The teacher's question challenged the rich culture of the future.",
+        "Watching the matches at the beach, the children munched on cheese sandwiches."
+      ],
+      "tongue_twisters": [
+        "If a dog chews shoes, whose shoes does he choose?",
+        "Cheerful children chant charming tunes in the church."
+      ]
     },
     {
       "key": "j",
-      "ipa": ["dʒ"],
+      "ipa": ["dʒ", "ʤ"],
       "display": "j (as in 'job')",
       "articulation_tip": "Like 'ch' but with voice: start at the 'd' position and release into the buzzing 'zh' sound in one burst.",
       "common_confusions": ["ch", "zh", "y"],
-      "example_words": ["job", "judge", "just", "age", "bridge", "general", "enjoy", "language"],
-      "minimal_pairs": [["joke", "choke"], ["jeep", "cheap"], ["age", "h"], ["jet", "yet"], ["major", "matcher"]]
+      "spellings": ["j", "g", "ge", "dge", "du"],
+      "examples": {
+        "initial": ["job", "judge", "just", "jump", "juice", "joke", "journey", "gentle", "giant", "general"],
+        "medial": ["enjoy", "major", "subject", "danger", "soldier", "imagine", "magic", "agency", "budget", "urgent"],
+        "final": ["age", "bridge", "village", "change", "large", "language", "college", "orange", "manage", "charge"]
+      },
+      "minimal_pairs": [
+        ["joke", "choke"], ["jeep", "cheap"], ["jet", "yet"], ["jam", "yam"],
+        ["juice", "use"], ["jeer", "year"], ["ridge", "rich"], ["badge", "batch"],
+        ["gin", "chin"], ["edge", "etch"], ["jealous", "zealous"], ["major", "measure"],
+        ["age", "ache"]
+      ],
+      "practice_sentences": [
+        "The judge has a job.",
+        "Just enjoy the juice.",
+        "The gentle giant told a joke.",
+        "Imagine a journey to a large village.",
+        "The general manager charged the agency budget.",
+        "The soldier imagined the dangerous journey across the giant bridge.",
+        "In college, the major subject was the general language of justice."
+      ],
+      "tongue_twisters": [
+        "Jolly juggling jesters jauntily juggled jingling jacks.",
+        "George the giant judged the giant orange jam."
+      ]
     },
     {
       "key": "r",
@@ -60,8 +190,30 @@
       "display": "r (as in 'red')",
       "articulation_tip": "Curl the tip of your tongue up and back without touching the roof of your mouth, round your lips slightly, and voice the sound. The tongue must not tap or trill.",
       "common_confusions": ["l", "w"],
-      "example_words": ["red", "right", "really", "around", "problem", "correct", "tomorrow", "library"],
-      "minimal_pairs": [["right", "light"], ["red", "led"], ["rice", "lice"], ["road", "load"], ["pray", "play"], ["crowd", "cloud"]]
+      "spellings": ["r", "rr", "wr", "rh"],
+      "examples": {
+        "initial": ["red", "right", "really", "read", "run", "rain", "room", "rich", "reason", "result"],
+        "medial": ["around", "problem", "correct", "tomorrow", "library", "very", "sorry", "story", "marry", "parent"],
+        "final": ["car", "four", "door", "more", "far", "year", "hair", "star", "poor", "wear"]
+      },
+      "minimal_pairs": [
+        ["right", "light"], ["red", "led"], ["rice", "lice"], ["road", "load"],
+        ["pray", "play"], ["crowd", "cloud"], ["race", "lace"], ["correct", "collect"],
+        ["fry", "fly"], ["grass", "glass"], ["wrong", "long"], ["river", "liver"],
+        ["rock", "lock"], ["raw", "law"]
+      ],
+      "practice_sentences": [
+        "The red car is here.",
+        "Read the story in your room.",
+        "It rained really hard around four.",
+        "Her parents will return the library books tomorrow morning.",
+        "The reporter wrote a very interesting story about the rural railroad.",
+        "Really rich results require rigorous research and rather rare resources."
+      ],
+      "tongue_twisters": [
+        "Red lorry, yellow lorry, red lorry, yellow lorry.",
+        "Around the rugged rocks the ragged rascal ran."
+      ]
     },
     {
       "key": "l",
@@ -69,8 +221,30 @@
       "display": "l (as in 'light')",
       "articulation_tip": "Press the tip of your tongue firmly against the ridge behind your upper front teeth and let the sound flow around the sides of the tongue.",
       "common_confusions": ["r", "w", "n"],
-      "example_words": ["light", "love", "like", "follow", "little", "always", "people", "school"],
-      "minimal_pairs": [["light", "right"], ["led", "red"], ["long", "wrong"], ["collect", "correct"], ["glass", "grass"]]
+      "spellings": ["l", "ll"],
+      "examples": {
+        "initial": ["light", "love", "like", "look", "listen", "leave", "long", "late", "learn", "lunch"],
+        "medial": ["follow", "little", "always", "believe", "family", "hello", "yellow", "color", "salary", "elephant"],
+        "final": ["school", "ball", "feel", "will", "full", "small", "tell", "well", "all", "cool"]
+      },
+      "minimal_pairs": [
+        ["light", "right"], ["led", "red"], ["long", "wrong"], ["collect", "correct"],
+        ["glass", "grass"], ["lace", "race"], ["lice", "rice"], ["load", "road"],
+        ["play", "pray"], ["cloud", "crowd"], ["lock", "rock"], ["law", "raw"],
+        ["low", "row"], ["low", "no"]
+      ],
+      "practice_sentences": [
+        "I like the yellow light.",
+        "Listen to the little bell.",
+        "My family always eats lunch late.",
+        "She will learn to play volleyball at school.",
+        "The lovely melody filled the small local hall.",
+        "Eleven yellow balloons floated slowly above the silent lake."
+      ],
+      "tongue_twisters": [
+        "Lucy loves little yellow lilies by the lake.",
+        "Larry's left leg lifted lightly along the long lane."
+      ]
     },
     {
       "key": "v",
@@ -78,8 +252,30 @@
       "display": "v (as in 'very')",
       "articulation_tip": "Touch your upper teeth to your lower lip and push air through with your voice on. Your lip should tingle — if not, you are saying 'w' or 'b'.",
       "common_confusions": ["w", "b", "f"],
-      "example_words": ["very", "voice", "have", "every", "never", "over", "village", "eleven"],
-      "minimal_pairs": [["very", "berry"], ["vet", "wet"], ["vine", "wine"], ["vest", "west"], ["leave", "leaf"]]
+      "spellings": ["v", "ve", "f"],
+      "examples": {
+        "initial": ["very", "voice", "visit", "village", "value", "video", "view", "vote", "vegetable", "victory"],
+        "medial": ["every", "never", "over", "eleven", "seven", "river", "travel", "heavy", "movie", "government"],
+        "final": ["have", "love", "give", "five", "leave", "move", "live", "save", "drive", "believe"]
+      },
+      "minimal_pairs": [
+        ["very", "berry"], ["vet", "wet"], ["vine", "wine"], ["vest", "west"],
+        ["van", "fan"], ["view", "few"], ["vote", "boat"], ["vow", "wow"],
+        ["verse", "worse"], ["leave", "leaf"], ["save", "safe"], ["believe", "belief"],
+        ["prove", "proof"], ["vary", "wary"]
+      ],
+      "practice_sentences": [
+        "Visit the village every evening.",
+        "Give me five velvet gloves.",
+        "Seven heavy rivers move over the valley.",
+        "The voters value every voice in the village.",
+        "I believe the government will never leave the travelers behind.",
+        "Vivian's vivid videos give viewers very valuable views of Venice."
+      ],
+      "tongue_twisters": [
+        "Vincent vowed vengeance very vehemently.",
+        "Five fine velvet vests vanished in the vivid village."
+      ]
     },
     {
       "key": "w",
@@ -87,8 +283,30 @@
       "display": "w (as in 'water')",
       "articulation_tip": "Round your lips into a tight circle as if whistling, then relax them as you voice the sound. Your teeth must not touch your lips.",
       "common_confusions": ["v", "r"],
-      "example_words": ["water", "would", "week", "always", "away", "question", "language", "twenty"],
-      "minimal_pairs": [["wet", "vet"], ["wine", "vine"], ["west", "vest"], ["while", "vile"]]
+      "spellings": ["w", "wh", "u", "o"],
+      "examples": {
+        "initial": ["water", "would", "week", "wait", "want", "window", "woman", "winter", "welcome", "work"],
+        "medial": ["always", "away", "question", "language", "twenty", "between", "sandwich", "awake", "highway", "somewhere"],
+        "final": []
+      },
+      "minimal_pairs": [
+        ["wet", "vet"], ["wine", "vine"], ["west", "vest"], ["while", "vile"],
+        ["wow", "vow"], ["worse", "verse"], ["wary", "vary"], ["wing", "ring"],
+        ["wide", "ride"], ["wake", "rake"], ["witch", "rich"], ["one", "run"],
+        ["weed", "read"]
+      ],
+      "practice_sentences": [
+        "I want water.",
+        "We will wait a week.",
+        "The woman walked away from the window.",
+        "We always answer twenty questions in the language class.",
+        "The wonderful weather in winter was warm last Wednesday.",
+        "Walter waited wearily while the wild waves washed the wide walkway."
+      ],
+      "tongue_twisters": [
+        "Wayne went to Wales to watch walruses.",
+        "We watched the weary woman wash the white windows."
+      ]
     },
     {
       "key": "y",
@@ -96,8 +314,29 @@
       "display": "y (as in 'yes')",
       "articulation_tip": "Raise the middle of your tongue close to the roof of your mouth — like a very quick 'ee' gliding into the next vowel.",
       "common_confusions": ["j"],
-      "example_words": ["yes", "you", "year", "young", "yellow", "use", "music", "few"],
-      "minimal_pairs": [["yet", "jet"], ["year", "jeer"], ["yes", "chess"], ["use", "juice"]]
+      "spellings": ["y", "u", "i", "ew"],
+      "examples": {
+        "initial": ["yes", "you", "year", "young", "yellow", "yesterday", "yet", "yard", "yogurt", "youth"],
+        "medial": ["music", "million", "opinion", "onion", "beyond", "computer", "lawyer", "canyon", "popular", "regular"],
+        "final": []
+      },
+      "minimal_pairs": [
+        ["yet", "jet"], ["year", "jeer"], ["yam", "jam"], ["yoke", "joke"],
+        ["yacht", "jot"], ["yellow", "jello"], ["use", "juice"], ["yes", "chess"],
+        ["Yale", "jail"], ["year", "ear"], ["yeast", "east"]
+      ],
+      "practice_sentences": [
+        "Yes, you are young.",
+        "Yesterday you used yellow yarn.",
+        "The young musician played popular music.",
+        "In my opinion, the lawyer's computer is beyond repair.",
+        "Last year, millions of young students used yellow computers.",
+        "Yesterday the youthful musician sang beyond the canyon."
+      ],
+      "tongue_twisters": [
+        "You yelled 'yellow yo-yo' at the young yak yesterday.",
+        "Young Yolanda yawned at yesterday's yellow yogurt."
+      ]
     },
     {
       "key": "h",
@@ -105,8 +344,29 @@
       "display": "h (as in 'house')",
       "articulation_tip": "Breathe out gently as if fogging a mirror, then start the vowel. Do not make it harsh or scratchy in the throat.",
       "common_confusions": [],
-      "example_words": ["house", "happy", "hello", "behind", "perhaps", "whole", "history", "ahead"],
-      "minimal_pairs": [["hat", "at"], ["hear", "ear"], ["hold", "old"], ["hair", "air"], ["hate", "eight"]]
+      "spellings": ["h", "wh"],
+      "examples": {
+        "initial": ["house", "happy", "hello", "hand", "head", "heart", "home", "hot", "hundred", "history"],
+        "medial": ["behind", "perhaps", "ahead", "unhappy", "behave", "somehow", "rehearse", "childhood", "overhead", "beforehand"],
+        "final": []
+      },
+      "minimal_pairs": [
+        ["hat", "at"], ["hear", "ear"], ["hold", "old"], ["hair", "air"],
+        ["hate", "eight"], ["heat", "eat"], ["hand", "and"], ["hill", "ill"],
+        ["hedge", "edge"], ["harm", "arm"], ["high", "eye"]
+      ],
+      "practice_sentences": [
+        "He has a happy home.",
+        "Hold my hand and say hello.",
+        "Her heart was happy behind the house.",
+        "Perhaps he was unhappy somehow during his childhood.",
+        "Henry hurried ahead to rehearse his hundred lines.",
+        "How has Helen's history homework helped her in high school?"
+      ],
+      "tongue_twisters": [
+        "Harry the hungry hippo happily hummed in his huge house.",
+        "In Hertford, Hereford, and Hampshire, hurricanes hardly ever happen."
+      ]
     },
     {
       "key": "ng",
@@ -114,8 +374,29 @@
       "display": "ng (as in 'sing')",
       "articulation_tip": "Press the back of your tongue against the soft palate (like 'g') and let the sound come through your nose. Do not release into a 'g' or 'k' at the end.",
       "common_confusions": ["n", "g"],
-      "example_words": ["sing", "thing", "long", "morning", "going", "english", "thinking", "bring"],
-      "minimal_pairs": [["sing", "sin"], ["thing", "thin"], ["ban", "bang"], ["ran", "rang"], ["wing", "win"]]
+      "spellings": ["ng", "n"],
+      "examples": {
+        "initial": [],
+        "medial": ["singer", "English", "language", "kingdom", "hungry", "angry", "finger", "single", "jungle", "younger"],
+        "final": ["sing", "thing", "long", "morning", "going", "thinking", "bring", "wrong", "strong", "among"]
+      },
+      "minimal_pairs": [
+        ["sing", "sin"], ["thing", "thin"], ["ban", "bang"], ["ran", "rang"],
+        ["wing", "win"], ["sung", "sun"], ["king", "kin"], ["rung", "run"],
+        ["ton", "tongue"], ["sinner", "singer"], ["banned", "banged"], ["gone", "gong"]
+      ],
+      "practice_sentences": [
+        "Sing a long song.",
+        "The young king was strong.",
+        "Bring something this morning.",
+        "The hungry singer was among the wrong crowd.",
+        "Learning the English language takes long evenings of thinking.",
+        "The angry younger singer kept singing strong morning songs among strangers."
+      ],
+      "tongue_twisters": [
+        "The king would sing about a ring that would go ding.",
+        "Singing singers sing songs slowly, bringing long, strong, ringing notes."
+      ]
     },
     {
       "key": "s",
@@ -123,8 +404,30 @@
       "display": "s (as in 'see')",
       "articulation_tip": "Place your tongue tip close to the ridge behind your upper teeth and push a thin, sharp stream of air — like a hissing snake, no voice.",
       "common_confusions": ["z", "sh", "th"],
-      "example_words": ["see", "say", "city", "house", "soft", "answer", "listen", "sister"],
-      "minimal_pairs": [["sip", "zip"], ["sink", "think"], ["see", "she"], ["price", "prize"]]
+      "spellings": ["s", "ss", "c", "ce", "sc", "x"],
+      "examples": {
+        "initial": ["see", "say", "city", "soft", "sister", "summer", "simple", "seven", "salt", "science"],
+        "medial": ["answer", "listen", "lesson", "basic", "possible", "message", "history", "person", "classroom", "sixty"],
+        "final": ["house", "bus", "class", "miss", "nice", "face", "place", "less", "across", "price"]
+      },
+      "minimal_pairs": [
+        ["sip", "zip"], ["sue", "zoo"], ["bus", "buzz"], ["price", "prize"],
+        ["ice", "eyes"], ["race", "raise"], ["lacy", "lazy"], ["see", "she"],
+        ["sip", "ship"], ["sock", "shock"], ["sink", "think"], ["sank", "thank"],
+        ["sing", "thing"], ["face", "faith"]
+      ],
+      "practice_sentences": [
+        "I see the sun.",
+        "My sister says it's simple.",
+        "Listen to the lesson in class.",
+        "It's possible to send sixty messages across the city.",
+        "The scientist asked a serious question about the solar system.",
+        "Seven sisters sat silently sorting small silver spoons last Sunday."
+      ],
+      "tongue_twisters": [
+        "Six sleek swans swam swiftly southwards.",
+        "Seventy-seven silly sailors sailed seven swift ships."
+      ]
     },
     {
       "key": "z",
@@ -132,8 +435,29 @@
       "display": "z (as in 'zoo')",
       "articulation_tip": "Same position as 's' but with voice on — your throat buzzes like a bee. Word-final 's' is often actually 'z' (dogs, plays).",
       "common_confusions": ["s", "th_voiced", "zh"],
-      "example_words": ["zoo", "zero", "easy", "music", "busy", "always", "because", "dogs"],
-      "minimal_pairs": [["zip", "sip"], ["zoo", "sue"], ["prize", "price"], ["eyes", "ice"], ["lazy", "lacy"]]
+      "spellings": ["z", "zz", "s", "se"],
+      "examples": {
+        "initial": ["zoo", "zero", "zone", "zip", "zebra", "zoom", "zest", "zipper"],
+        "medial": ["easy", "music", "busy", "thousand", "husband", "reason", "season", "dozen", "lazy", "amazing"],
+        "final": ["because", "please", "cheese", "size", "surprise", "noise", "eyes", "was", "his", "news"]
+      },
+      "minimal_pairs": [
+        ["zip", "sip"], ["zoo", "sue"], ["zeal", "seal"], ["zinc", "sink"],
+        ["prize", "price"], ["eyes", "ice"], ["buzz", "bus"], ["raise", "race"],
+        ["lazy", "lacy"], ["zen", "then"], ["breeze", "breathe"], ["closing", "clothing"]
+      ],
+      "practice_sentences": [
+        "The zoo is easy to visit.",
+        "Please close your eyes.",
+        "The busy husband has a dozen reasons.",
+        "The lazy zebra dozed in the warm breeze.",
+        "It was amazing news that thousands of fans raised the prize money.",
+        "His cousin's surprising music always amazes the noisy crowds."
+      ],
+      "tongue_twisters": [
+        "Zebras zigzag through the zoo's amazing maze.",
+        "The wizard's dizzy lizard dozes lazily."
+      ]
     },
     {
       "key": "f",
@@ -141,8 +465,30 @@
       "display": "f (as in 'fine')",
       "articulation_tip": "Touch your upper teeth to your lower lip and blow air through without voice — the voiceless twin of 'v'.",
       "common_confusions": ["v", "p", "th"],
-      "example_words": ["fine", "five", "after", "before", "coffee", "telephone", "different", "enough"],
-      "minimal_pairs": [["fan", "van"], ["fine", "vine"], ["leaf", "leave"], ["fast", "past"], ["free", "three"]]
+      "spellings": ["f", "ff", "ph", "gh"],
+      "examples": {
+        "initial": ["fine", "five", "food", "first", "family", "find", "finish", "phone", "photo", "fifty"],
+        "medial": ["after", "before", "coffee", "telephone", "different", "difficult", "office", "afternoon", "careful", "beautiful"],
+        "final": ["enough", "life", "half", "safe", "wife", "knife", "laugh", "off", "staff", "belief"]
+      },
+      "minimal_pairs": [
+        ["fan", "van"], ["fine", "vine"], ["ferry", "very"], ["few", "view"],
+        ["leaf", "leave"], ["safe", "save"], ["belief", "believe"], ["proof", "prove"],
+        ["free", "three"], ["first", "thirst"], ["fought", "thought"], ["fin", "thin"],
+        ["deaf", "death"], ["fool", "pool"]
+      ],
+      "practice_sentences": [
+        "My family is fine.",
+        "I drink coffee before five.",
+        "Finish your food in the office.",
+        "After the photo, the staff laughed for half an hour.",
+        "It's difficult to find a different telephone in the afternoon.",
+        "Fifty careful firefighters faced the fierce flames before breakfast."
+      ],
+      "tongue_twisters": [
+        "Four furious friends fought for the phone.",
+        "Fresh fried fish, fish fresh fried, fried fish fresh, fish fried fresh."
+      ]
     },
     {
       "key": "p",
@@ -150,8 +496,30 @@
       "display": "p (as in 'pen')",
       "articulation_tip": "Close both lips, build up air, and release with a small puff (aspiration) at the start of words. Hold a paper in front of your mouth — it should move.",
       "common_confusions": ["b", "f"],
-      "example_words": ["pen", "paper", "people", "happy", "open", "stop", "important", "complete"],
-      "minimal_pairs": [["pen", "ben"], ["pat", "bat"], ["pig", "big"], ["cap", "cab"], ["pull", "full"]]
+      "spellings": ["p", "pp"],
+      "examples": {
+        "initial": ["pen", "paper", "people", "park", "play", "put", "point", "picture", "perfect", "popular"],
+        "medial": ["happy", "open", "important", "complete", "apple", "simple", "company", "computer", "expensive", "airport"],
+        "final": ["stop", "help", "keep", "top", "jump", "cup", "sleep", "map", "deep", "group"]
+      },
+      "minimal_pairs": [
+        ["pat", "bat"], ["pig", "big"], ["pen", "Ben"], ["pack", "back"],
+        ["pan", "ban"], ["pull", "bull"], ["path", "bath"], ["pest", "best"],
+        ["pride", "bride"], ["cap", "cab"], ["rope", "robe"], ["mop", "mob"],
+        ["staple", "stable"], ["pour", "bore"]
+      ],
+      "practice_sentences": [
+        "Put the pen on the paper.",
+        "People play in the park.",
+        "The happy puppy jumped up.",
+        "Please help me complete this important picture.",
+        "The popular company opened an expensive computer department.",
+        "Perhaps the pilot prepared the perfect plan at the appropriate airport."
+      ],
+      "tongue_twisters": [
+        "Peter Piper picked a peck of pickled peppers.",
+        "A proper copper coffee pot."
+      ]
     },
     {
       "key": "b",
@@ -159,8 +527,30 @@
       "display": "b (as in 'big')",
       "articulation_tip": "Close both lips and release with your voice on — no puff of air. Your throat vibrates from the very start.",
       "common_confusions": ["p", "v"],
-      "example_words": ["big", "book", "about", "number", "remember", "table", "job", "habit"],
-      "minimal_pairs": [["bat", "pat"], ["big", "pig"], ["berry", "very"], ["cab", "cap"], ["robe", "rope"]]
+      "spellings": ["b", "bb"],
+      "examples": {
+        "initial": ["big", "book", "boy", "best", "buy", "build", "busy", "before", "between", "beautiful"],
+        "medial": ["about", "number", "remember", "table", "habit", "problem", "neighbor", "somebody", "husband", "rubber"],
+        "final": ["job", "club", "web", "grab", "verb", "cab", "rob", "describe", "globe", "tub"]
+      },
+      "minimal_pairs": [
+        ["bat", "pat"], ["big", "pig"], ["back", "pack"], ["ban", "pan"],
+        ["bull", "pull"], ["bath", "path"], ["best", "pest"], ["bride", "pride"],
+        ["cab", "cap"], ["robe", "rope"], ["mob", "mop"], ["berry", "very"],
+        ["boat", "vote"], ["bent", "vent"]
+      ],
+      "practice_sentences": [
+        "The big boy has a book.",
+        "Buy the blue table before lunch.",
+        "Remember the number of the club.",
+        "Somebody built a beautiful cabin by the bay.",
+        "My neighbor's baby grabbed the rubber ball from the table.",
+        "The busy businessman remembered to describe the problem to everybody."
+      ],
+      "tongue_twisters": [
+        "Betty bought a bit of better butter.",
+        "A big black bug bit a big black bear."
+      ]
     },
     {
       "key": "t",
@@ -168,8 +558,30 @@
       "display": "t (as in 'time')",
       "articulation_tip": "Tap your tongue tip on the ridge behind your upper teeth and release with a small puff of air at the start of words.",
       "common_confusions": ["d", "th", "ch"],
-      "example_words": ["time", "two", "today", "better", "city", "want", "start", "little"],
-      "minimal_pairs": [["time", "dime"], ["tin", "thin"], ["two", "do"], ["bat", "bad"], ["wrote", "rode"]]
+      "spellings": ["t", "tt", "ed"],
+      "examples": {
+        "initial": ["time", "two", "today", "take", "tell", "talk", "table", "teacher", "town", "turn"],
+        "medial": ["better", "city", "water", "hotel", "until", "return", "computer", "started", "written", "attend"],
+        "final": ["want", "start", "night", "late", "sit", "foot", "eight", "great", "minute", "fact"]
+      },
+      "minimal_pairs": [
+        ["time", "dime"], ["two", "do"], ["town", "down"], ["ten", "den"],
+        ["tie", "die"], ["train", "drain"], ["bat", "bad"], ["wrote", "rode"],
+        ["sat", "sad"], ["hat", "had"], ["write", "ride"], ["tin", "thin"],
+        ["taught", "thought"], ["tree", "three"], ["tank", "thank"]
+      ],
+      "practice_sentences": [
+        "It is time to talk.",
+        "Take two tickets today.",
+        "The teacher told us to sit tight.",
+        "Tom started to write a letter at ten tonight.",
+        "The tired tourist took the train to the next town.",
+        "Twenty-two students attended the important winter test on Tuesday."
+      ],
+      "tongue_twisters": [
+        "Two tiny tigers take taxis to town.",
+        "A tutor who tooted the flute tried to tutor two tooters to toot."
+      ]
     },
     {
       "key": "d",
@@ -177,8 +589,30 @@
       "display": "d (as in 'day')",
       "articulation_tip": "Same tongue position as 't' (tip on the ridge behind the upper teeth) but with voice on and no puff of air.",
       "common_confusions": ["t", "th_voiced"],
-      "example_words": ["day", "do", "down", "idea", "ready", "side", "added", "middle"],
-      "minimal_pairs": [["day", "they"], ["dime", "time"], ["bad", "bat"], ["ladder", "latter"], ["den", "then"]]
+      "spellings": ["d", "dd", "ed"],
+      "examples": {
+        "initial": ["day", "do", "down", "door", "dog", "dark", "deep", "dinner", "doctor", "during"],
+        "medial": ["idea", "ready", "added", "middle", "under", "body", "garden", "sudden", "children", "yesterday"],
+        "final": ["side", "bad", "food", "good", "hand", "head", "old", "road", "word", "friend"]
+      },
+      "minimal_pairs": [
+        ["day", "they"], ["dime", "time"], ["bad", "bat"], ["ladder", "latter"],
+        ["den", "then"], ["do", "two"], ["down", "town"], ["die", "tie"],
+        ["drain", "train"], ["sad", "sat"], ["had", "hat"], ["ride", "write"],
+        ["rode", "wrote"], ["dare", "there"], ["doze", "those"]
+      ],
+      "practice_sentences": [
+        "The dog is at the door.",
+        "I had a good day.",
+        "The doctor opened the door during dinner.",
+        "The children played in the garden under the dark cloud.",
+        "Yesterday, David decided to read a hundred words at midday.",
+        "The tired driver suddenly understood the dangerous road conditions ahead."
+      ],
+      "tongue_twisters": [
+        "Did Doug dig Dick's garden or did Dick dig Doug's garden?",
+        "Diligent Daniel dared a dozen daring deeds."
+      ]
     },
     {
       "key": "k",
@@ -186,8 +620,30 @@
       "display": "k (as in 'key')",
       "articulation_tip": "Press the back of your tongue against the soft palate and release with a puff of air, voice off.",
       "common_confusions": ["g"],
-      "example_words": ["key", "can", "back", "school", "because", "weekend", "market", "quick"],
-      "minimal_pairs": [["coat", "goat"], ["back", "bag"], ["clock", "clog"], ["came", "game"]]
+      "spellings": ["c", "k", "ck", "ch", "q"],
+      "examples": {
+        "initial": ["key", "can", "come", "call", "kind", "keep", "car", "color", "question", "coffee"],
+        "medial": ["because", "weekend", "market", "second", "become", "picture", "American", "breakfast", "jacket", "chicken"],
+        "final": ["back", "book", "quick", "look", "work", "week", "ask", "black", "music", "talk"]
+      },
+      "minimal_pairs": [
+        ["coat", "goat"], ["came", "game"], ["cold", "gold"], ["curl", "girl"],
+        ["class", "glass"], ["cap", "gap"], ["could", "good"], ["back", "bag"],
+        ["lock", "log"], ["pick", "pig"], ["tuck", "tug"], ["rack", "rag"],
+        ["clock", "clog"]
+      ],
+      "practice_sentences": [
+        "Keep the key in the car.",
+        "Can you come back quickly?",
+        "I drink black coffee at breakfast.",
+        "The kind customer asked a quick question at the market.",
+        "Because of the cold weather, the kids kept their jackets on.",
+        "The American academic collected six classic books about economic markets."
+      ],
+      "tongue_twisters": [
+        "How can a clam cram in a clean cream can?",
+        "Kindly kittens knitting mittens keep kazooing in the king's kitchen."
+      ]
     },
     {
       "key": "g",
@@ -195,8 +651,30 @@
       "display": "g (as in 'go')",
       "articulation_tip": "Same place as 'k' (back of the tongue on the soft palate) but voiced and without the puff of air.",
       "common_confusions": ["k", "ng"],
-      "example_words": ["go", "get", "good", "again", "begin", "bigger", "August", "forget"],
-      "minimal_pairs": [["goat", "coat"], ["game", "came"], ["bag", "back"], ["gold", "cold"]]
+      "spellings": ["g", "gg", "gh", "gu"],
+      "examples": {
+        "initial": ["go", "get", "good", "give", "game", "girl", "garden", "guess", "gift", "goal"],
+        "medial": ["again", "begin", "bigger", "forget", "ago", "sugar", "together", "regular", "organize", "August"],
+        "final": ["big", "bag", "dog", "leg", "flag", "egg", "frog", "pig", "bug", "fog"]
+      },
+      "minimal_pairs": [
+        ["goat", "coat"], ["game", "came"], ["gold", "cold"], ["girl", "curl"],
+        ["glass", "class"], ["gap", "cap"], ["good", "could"], ["bag", "back"],
+        ["log", "lock"], ["pig", "pick"], ["tug", "tuck"], ["rag", "rack"],
+        ["gain", "cane"], ["ghost", "coast"]
+      ],
+      "practice_sentences": [
+        "Go get the big bag.",
+        "The girl gave a good gift.",
+        "Forget the game and begin again.",
+        "The frog and the pig began digging in the garden together.",
+        "In August, we organized a great gathering for our growing group.",
+        "My grandmother regularly gives me sugar against my better judgment."
+      ],
+      "tongue_twisters": [
+        "Gary gathered giant green grapes in grandma's garden.",
+        "A gaggle of geese gazed at the gleaming gate."
+      ]
     },
     {
       "key": "m",
@@ -204,8 +682,30 @@
       "display": "m (as in 'man')",
       "articulation_tip": "Close your lips and hum — the sound comes entirely through your nose.",
       "common_confusions": ["n"],
-      "example_words": ["man", "make", "more", "summer", "family", "name", "from", "important"],
-      "minimal_pairs": [["man", "nan"], ["map", "nap"], ["sum", "sun"], ["might", "night"]]
+      "spellings": ["m", "mm", "mb", "mn"],
+      "examples": {
+        "initial": ["man", "make", "more", "my", "much", "mother", "money", "morning", "music", "market"],
+        "medial": ["summer", "family", "important", "remember", "tomorrow", "camera", "woman", "human", "common", "moment"],
+        "final": ["name", "from", "time", "home", "room", "team", "dream", "warm", "system", "bottom"]
+      },
+      "minimal_pairs": [
+        ["map", "nap"], ["might", "night"], ["mine", "nine"], ["mail", "nail"],
+        ["met", "net"], ["mice", "nice"], ["mat", "gnat"], ["mere", "near"],
+        ["sum", "sun"], ["some", "son"], ["dim", "din"], ["team", "teen"],
+        ["comb", "cone"], ["warm", "worn"]
+      ],
+      "practice_sentences": [
+        "Make more time for me.",
+        "My mother came home this morning.",
+        "Remember to email me tomorrow morning.",
+        "The famous musician moved to Miami last summer.",
+        "The human mind sometimes remembers small moments from many summers ago.",
+        "My roommate's family met me at the marvelous museum in the morning."
+      ],
+      "tongue_twisters": [
+        "Mary makes marvelous homemade marmalade in May.",
+        "My mommy makes me my muffins on Mondays."
+      ]
     },
     {
       "key": "n",
@@ -213,8 +713,30 @@
       "display": "n (as in 'no')",
       "articulation_tip": "Touch your tongue tip to the ridge behind your upper teeth and let the sound come through your nose.",
       "common_confusions": ["m", "ng", "l"],
-      "example_words": ["no", "name", "nine", "dinner", "again", "begin", "morning", "until"],
-      "minimal_pairs": [["night", "might"], ["sun", "sum"], ["sin", "sing"], ["no", "low"]]
+      "spellings": ["n", "nn", "kn", "gn"],
+      "examples": {
+        "initial": ["no", "name", "nine", "night", "new", "need", "next", "north", "number", "nothing"],
+        "medial": ["dinner", "again", "until", "money", "any", "funny", "banana", "evening", "country", "window"],
+        "final": ["begin", "sun", "when", "ten", "man", "green", "learn", "between", "brown", "rain"]
+      },
+      "minimal_pairs": [
+        ["night", "might"], ["nap", "map"], ["nine", "mine"], ["nail", "mail"],
+        ["net", "met"], ["nice", "mice"], ["gnat", "mat"], ["near", "mere"],
+        ["sun", "sum"], ["son", "some"], ["din", "dim"], ["teen", "team"],
+        ["sin", "sing"], ["ban", "bang"], ["win", "wing"]
+      ],
+      "practice_sentences": [
+        "Nine new names are on the list.",
+        "I need nothing until noon.",
+        "The funny nanny found nine bananas in the kitchen.",
+        "Every evening, the neighbors run between the green lanes.",
+        "Nathan never knew the number of the nearest northern train station.",
+        "When the rain ends, the nine men will continue running north."
+      ],
+      "tongue_twisters": [
+        "Nine nice night nurses nursing nicely.",
+        "Nanny needs nine new needles for knitting nightly."
+      ]
     },
     {
       "key": "ih",
@@ -222,8 +744,30 @@
       "display": "short i (as in 'sit')",
       "articulation_tip": "Relax your tongue and lips and keep the sound very short. It is lazier and more central than 'ee' — the lips do not smile.",
       "common_confusions": ["ee", "eh"],
-      "example_words": ["sit", "this", "big", "little", "minute", "women", "busy", "gym"],
-      "minimal_pairs": [["sit", "seat"], ["ship", "sheep"], ["live", "leave"], ["fill", "feel"], ["hit", "heat"], ["it", "eat"]]
+      "spellings": ["i", "y", "ui", "e"],
+      "examples": {
+        "initial": ["it", "is", "in", "if", "into", "important", "interest", "ill", "issue", "inch"],
+        "medial": ["sit", "this", "big", "little", "minute", "women", "busy", "gym", "build", "winter"],
+        "final": []
+      },
+      "minimal_pairs": [
+        ["sit", "seat"], ["ship", "sheep"], ["live", "leave"], ["fill", "feel"],
+        ["hit", "heat"], ["it", "eat"], ["chip", "cheap"], ["slip", "sleep"],
+        ["rich", "reach"], ["sin", "seen"], ["bin", "bean"], ["pitch", "peach"],
+        ["sick", "seek"], ["list", "least"], ["bit", "beat"]
+      ],
+      "practice_sentences": [
+        "Sit in this big chair.",
+        "The little kitten is in the kitchen.",
+        "His sister will visit the city this winter.",
+        "The busy women built six little bridges.",
+        "In the beginning, it was difficult to finish the English quiz.",
+        "Filling in this important list will take fifty minutes."
+      ],
+      "tongue_twisters": [
+        "Six silly sisters sit in silence.",
+        "Bill built big bridges with bricks and twigs."
+      ]
     },
     {
       "key": "ee",
@@ -231,8 +775,30 @@
       "display": "long ee (as in 'see')",
       "articulation_tip": "Smile — spread your lips wide and raise your tongue high and forward. Hold the sound longer than short 'i'.",
       "common_confusions": ["ih"],
-      "example_words": ["see", "eat", "need", "people", "teacher", "easy", "believe", "key"],
-      "minimal_pairs": [["seat", "sit"], ["sheep", "ship"], ["leave", "live"], ["feel", "fill"], ["beach", "bitch"]]
+      "spellings": ["ee", "ea", "e", "ie", "ei", "ey", "y"],
+      "examples": {
+        "initial": ["eat", "easy", "even", "evening", "east", "each", "equal", "eagle"],
+        "medial": ["need", "teacher", "believe", "season", "reason", "people", "between", "complete", "machine", "receive"],
+        "final": ["see", "key", "tea", "three", "free", "agree", "city", "happy", "coffee", "money"]
+      },
+      "minimal_pairs": [
+        ["seat", "sit"], ["sheep", "ship"], ["leave", "live"], ["feel", "fill"],
+        ["heat", "hit"], ["eat", "it"], ["cheap", "chip"], ["sleep", "slip"],
+        ["reach", "rich"], ["seen", "sin"], ["bean", "bin"], ["peach", "pitch"],
+        ["seek", "sick"], ["least", "list"], ["beat", "bit"]
+      ],
+      "practice_sentences": [
+        "I see three trees.",
+        "We eat cheese every evening.",
+        "The teacher needs to see me this week.",
+        "People believe the season's reasons are easy to see.",
+        "Between meetings, the team received complete legal briefings.",
+        "Each evening, the eager teacher reads fourteen brief stories about Greek heroes."
+      ],
+      "tongue_twisters": [
+        "The queen seemed keen to see the green sea.",
+        "Three free sheep eat sweet green leaves each week."
+      ]
     },
     {
       "key": "ae",
@@ -240,8 +806,30 @@
       "display": "a (as in 'cat')",
       "articulation_tip": "Open your mouth wide and push your tongue low and forward, almost like preparing to bite an apple. It is more open than 'e' in 'bed'.",
       "common_confusions": ["eh", "uh", "ah"],
-      "example_words": ["cat", "have", "man", "happy", "answer", "family", "stand", "exactly"],
-      "minimal_pairs": [["bad", "bed"], ["man", "men"], ["cat", "cut"], ["hat", "hot"], ["sad", "said"]]
+      "spellings": ["a"],
+      "examples": {
+        "initial": ["apple", "answer", "animal", "add", "ask", "after", "angry", "accident", "average", "absent"],
+        "medial": ["cat", "have", "man", "happy", "family", "stand", "exactly", "black", "plan", "travel"],
+        "final": []
+      },
+      "minimal_pairs": [
+        ["bad", "bed"], ["man", "men"], ["pan", "pen"], ["sad", "said"],
+        ["bag", "beg"], ["land", "lend"], ["and", "end"], ["cat", "cut"],
+        ["cap", "cup"], ["ankle", "uncle"], ["match", "much"], ["ran", "run"],
+        ["track", "truck"], ["hat", "hot"], ["bat", "bet"]
+      ],
+      "practice_sentences": [
+        "The cat sat on my lap.",
+        "The happy man has a plan.",
+        "My family travels back in January.",
+        "The angry cat ran past the black van.",
+        "As a matter of fact, the accident happened after class.",
+        "Daniel's grandfather had exactly half an acre of natural grassland."
+      ],
+      "tongue_twisters": [
+        "The fat cat sat on the flat mat with a black hat.",
+        "Anna's angry aunt ate apples and avocados rapidly."
+      ]
     },
     {
       "key": "eh",
@@ -249,8 +837,30 @@
       "display": "e (as in 'bed')",
       "articulation_tip": "Mouth half-open, tongue mid-front and relaxed. Shorter and less open than 'a' in 'cat'.",
       "common_confusions": ["ae", "ih", "ay"],
-      "example_words": ["bed", "said", "get", "very", "seven", "friend", "ready", "weather"],
-      "minimal_pairs": [["bed", "bad"], ["men", "man"], ["pen", "pan"], ["said", "sad"], ["letter", "latter"]]
+      "spellings": ["e", "ea", "ai", "a"],
+      "examples": {
+        "initial": ["end", "every", "enter", "egg", "edge", "effort", "energy", "anything", "elephant", "exit"],
+        "medial": ["bed", "said", "get", "very", "seven", "friend", "ready", "weather", "never", "question"],
+        "final": []
+      },
+      "minimal_pairs": [
+        ["bed", "bad"], ["men", "man"], ["pen", "pan"], ["said", "sad"],
+        ["beg", "bag"], ["lend", "land"], ["end", "and"], ["letter", "latter"],
+        ["pen", "pin"], ["ten", "tin"], ["set", "sit"], ["desk", "disk"],
+        ["fell", "fill"], ["bet", "bit"], ["check", "chick"]
+      ],
+      "practice_sentences": [
+        "Get the red pen.",
+        "My best friend never gets ready before seven.",
+        "The weather forecast said heavy rain again on Wednesday.",
+        "Remember to check every question on the second test.",
+        "Twenty energetic men spent the evening mending the fence together.",
+        "Every elephant entered the exhibition wearing an elegant red vest."
+      ],
+      "tongue_twisters": [
+        "Fred fed Ted bread, and Ted fed Fred bread.",
+        "Every elephant entered the elegant exhibition."
+      ]
     },
     {
       "key": "uh",
@@ -258,8 +868,30 @@
       "display": "u (as in 'cup')",
       "articulation_tip": "A short, relaxed central sound — mouth slightly open, tongue resting in the middle, like a quick grunt 'uh'.",
       "common_confusions": ["ah", "ae", "schwa"],
-      "example_words": ["cup", "but", "love", "money", "month", "country", "enough", "sunday"],
-      "minimal_pairs": [["cup", "cap"], ["cut", "cat"], ["luck", "lack"], ["fun", "fan"], ["color", "collar"]]
+      "spellings": ["u", "o", "ou", "oo"],
+      "examples": {
+        "initial": ["up", "us", "under", "uncle", "ugly", "other", "understand", "onion", "oven", "utter"],
+        "medial": ["cup", "but", "love", "money", "month", "country", "enough", "Sunday", "brother", "hundred"],
+        "final": []
+      },
+      "minimal_pairs": [
+        ["cup", "cap"], ["cut", "cat"], ["luck", "lack"], ["fun", "fan"],
+        ["run", "ran"], ["truck", "track"], ["much", "match"], ["uncle", "ankle"],
+        ["cup", "cop"], ["luck", "lock"], ["shut", "shot"], ["nut", "not"],
+        ["duck", "dock"], ["bus", "boss"], ["color", "collar"]
+      ],
+      "practice_sentences": [
+        "My brother loves money.",
+        "Come for lunch on Sunday.",
+        "My uncle won a hundred bucks last month.",
+        "The young couple discovered a lovely country pub.",
+        "Once a month, my mother's cousin runs a wonderful brunch club.",
+        "Suddenly, the sun came up above the muddy southern country."
+      ],
+      "tongue_twisters": [
+        "The duck dunked under the muddy water.",
+        "One hundred hungry hunters hunted under the sunny summer sun."
+      ]
     },
     {
       "key": "schwa",
@@ -267,8 +899,25 @@
       "display": "schwa (as in 'about')",
       "articulation_tip": "The laziest sound in English: totally relaxed mouth, very short 'uh'. Most unstressed vowels become schwa — do not pronounce them fully.",
       "common_confusions": ["uh", "ah"],
-      "example_words": ["about", "ago", "problem", "banana", "today", "again", "support", "police"],
-      "minimal_pairs": []
+      "spellings": ["a", "e", "o", "u", "i"],
+      "examples": {
+        "initial": ["about", "ago", "again", "away", "around", "agree", "among", "alone", "ahead", "asleep"],
+        "medial": ["problem", "today", "support", "police", "chocolate", "computer", "second", "husband", "balloon", "salad"],
+        "final": ["sofa", "idea", "extra", "pizza", "china", "data", "umbrella", "soda", "era", "comma"]
+      },
+      "minimal_pairs": [],
+      "practice_sentences": [
+        "Let's talk about it again.",
+        "The banana is on the sofa.",
+        "The police support the idea today.",
+        "A second problem appeared on the computer agenda.",
+        "The photographer's camera was hidden among the chocolate boxes.",
+        "Tonight, the famous actor will arrive alone at the cinema."
+      ],
+      "tongue_twisters": [
+        "A banana, a sofa, and a camera appeared in America.",
+        "The parrot ate a carrot in an apparent panic."
+      ]
     },
     {
       "key": "ah",
@@ -276,8 +925,30 @@
       "display": "ah (as in 'father')",
       "articulation_tip": "Open your mouth wide and keep your tongue low and back, like showing a doctor your throat: 'aaah'.",
       "common_confusions": ["uh", "aw", "ae"],
-      "example_words": ["father", "hot", "stop", "watch", "problem", "doctor", "garden", "calm"],
-      "minimal_pairs": [["hot", "hat"], ["cop", "cup"], ["lock", "luck"], ["shot", "shut"]]
+      "spellings": ["o", "a", "al"],
+      "examples": {
+        "initial": ["object", "honest", "option", "opera", "obvious", "olive", "occupy", "ox", "opposite", "October"],
+        "medial": ["father", "hot", "stop", "watch", "problem", "doctor", "garden", "calm", "body", "model"],
+        "final": ["spa", "grandma"]
+      },
+      "minimal_pairs": [
+        ["hot", "hat"], ["cop", "cup"], ["lock", "luck"], ["shot", "shut"],
+        ["cot", "cut"], ["not", "nut"], ["dock", "duck"], ["boss", "bus"],
+        ["hot", "hut"], ["stock", "stuck"], ["collar", "color"], ["calm", "come"],
+        ["wander", "wonder"], ["doll", "dull"]
+      ],
+      "practice_sentences": [
+        "My father is calm.",
+        "The doctor stopped at the shop.",
+        "The doctor watched the clock in the hospital.",
+        "My father solved the problem with the office documents.",
+        "The honest scholar got a copy of the modern novel.",
+        "Tom's father parked the car in the dark garage opposite the pond."
+      ],
+      "tongue_twisters": [
+        "Bob's hot pot shop got a lot of stock.",
+        "The odd otter spotted a lobster in the pond."
+      ]
     },
     {
       "key": "aw",
@@ -285,8 +956,30 @@
       "display": "aw (as in 'law')",
       "articulation_tip": "Round your lips slightly and keep your tongue low and back — between 'ah' and 'oh'.",
       "common_confusions": ["ah", "oh"],
-      "example_words": ["law", "call", "thought", "daughter", "always", "water", "because", "August"],
-      "minimal_pairs": [["caught", "cot"], ["law", "low"], ["ball", "bowl"], ["bought", "boat"]]
+      "spellings": ["aw", "au", "ough", "augh", "al", "o"],
+      "examples": {
+        "initial": ["all", "always", "also", "almost", "August", "autumn", "audience", "author", "auto", "awful"],
+        "medial": ["call", "thought", "daughter", "water", "because", "bought", "taught", "caught", "fault", "walking"],
+        "final": ["law", "saw", "draw", "raw", "straw", "jaw", "paw", "claw", "flaw"]
+      },
+      "minimal_pairs": [
+        ["caught", "cot"], ["law", "low"], ["ball", "bowl"], ["bought", "boat"],
+        ["walk", "woke"], ["call", "coal"], ["hall", "hole"], ["chalk", "choke"],
+        ["dawn", "done"], ["lawn", "loan"], ["pause", "pose"], ["raw", "row"],
+        ["saw", "so"], ["caller", "collar"], ["naught", "not"]
+      ],
+      "practice_sentences": [
+        "I saw it all.",
+        "Draw the small ball.",
+        "My daughter taught the law course.",
+        "Because of the fault, we all walked along the long hall.",
+        "The author talked to the audience all autumn.",
+        "In August, the awful storm caused the tall walls to fall."
+      ],
+      "tongue_twisters": [
+        "Paul's tall daughter bought four small straws.",
+        "The naughty author caught an awful cough in autumn."
+      ]
     },
     {
       "key": "oo_short",
@@ -294,8 +987,29 @@
       "display": "short oo (as in 'book')",
       "articulation_tip": "Lips loosely rounded, tongue relaxed and pulled back, very short sound. Less rounded and shorter than 'oo' in 'food'.",
       "common_confusions": ["oo", "uh"],
-      "example_words": ["book", "good", "look", "would", "put", "woman", "sugar", "full"],
-      "minimal_pairs": [["full", "fool"], ["pull", "pool"], ["look", "luke"], ["could", "cooed"]]
+      "spellings": ["oo", "u", "ou", "o"],
+      "examples": {
+        "initial": [],
+        "medial": ["book", "good", "look", "would", "put", "woman", "sugar", "full", "push", "foot"],
+        "final": []
+      },
+      "minimal_pairs": [
+        ["full", "fool"], ["pull", "pool"], ["look", "Luke"], ["could", "cooed"],
+        ["soot", "suit"], ["stood", "stewed"], ["book", "buck"], ["look", "luck"],
+        ["took", "tuck"], ["put", "putt"]
+      ],
+      "practice_sentences": [
+        "Look at the good book.",
+        "Put the sugar in the cookie.",
+        "The woman stood by the wooden door.",
+        "You should look for a good cookbook.",
+        "He took the full basket of goods to the butcher.",
+        "If I could, I would put my foot in the cool brook."
+      ],
+      "tongue_twisters": [
+        "A good cook could cook good cookies.",
+        "The bushy-tailed wolf looked at the woolly sheep."
+      ]
     },
     {
       "key": "oo",
@@ -303,8 +1017,29 @@
       "display": "long oo (as in 'food')",
       "articulation_tip": "Round your lips into a tight small circle and push them forward; hold the sound long.",
       "common_confusions": ["oo_short"],
-      "example_words": ["food", "two", "school", "blue", "June", "afternoon", "choose", "through"],
-      "minimal_pairs": [["fool", "full"], ["pool", "pull"], ["food", "foot"], ["suit", "soot"]]
+      "spellings": ["oo", "u", "ue", "ew", "ou", "o"],
+      "examples": {
+        "initial": [],
+        "medial": ["food", "school", "afternoon", "choose", "group", "student", "music", "movie", "soon", "room"],
+        "final": ["two", "blue", "through", "true", "you", "new", "few", "shoe", "who", "zoo"]
+      },
+      "minimal_pairs": [
+        ["fool", "full"], ["pool", "pull"], ["suit", "soot"], ["Luke", "look"],
+        ["cooed", "could"], ["stewed", "stood"], ["pool", "pole"], ["fool", "foal"],
+        ["boot", "boat"], ["shoe", "show"], ["too", "toe"], ["who'd", "hood"]
+      ],
+      "practice_sentences": [
+        "Choose a blue shoe soon.",
+        "The school food is good.",
+        "The new student group moved to the music room.",
+        "Who flew through the huge blue moon balloons?",
+        "In June, the two students consumed too much fruit juice.",
+        "The beautiful new movie proved hugely popular with the youth."
+      ],
+      "tongue_twisters": [
+        "How few new shoes could a choosy moose choose?",
+        "Soon the spoon will scoop the smooth soup."
+      ]
     },
     {
       "key": "oh",
@@ -312,8 +1047,30 @@
       "display": "o (as in 'go')",
       "articulation_tip": "This is two sounds glided together: start at 'o' and finish with lips rounding into 'oo'. Do not cut it short into a single pure 'o'.",
       "common_confusions": ["aw", "oo"],
-      "example_words": ["go", "no", "home", "open", "phone", "hello", "window", "tomorrow"],
-      "minimal_pairs": [["low", "law"], ["boat", "bought"], ["coast", "cost"], ["woke", "walk"]]
+      "spellings": ["o", "oa", "ow", "oe", "ough"],
+      "examples": {
+        "initial": ["open", "over", "old", "only", "ocean", "own", "oval", "obey", "okay", "oatmeal"],
+        "medial": ["home", "phone", "hope", "road", "boat", "smoke", "moment", "alone", "broken", "woke"],
+        "final": ["go", "no", "show", "know", "slow", "window", "hello", "tomorrow", "ago", "snow"]
+      },
+      "minimal_pairs": [
+        ["low", "law"], ["boat", "bought"], ["coast", "cost"], ["woke", "walk"],
+        ["no", "now"], ["coal", "call"], ["hole", "hall"], ["choke", "chalk"],
+        ["loan", "lawn"], ["pose", "pause"], ["row", "raw"], ["so", "saw"],
+        ["tone", "town"], ["bowl", "ball"], ["goat", "got"]
+      ],
+      "practice_sentences": [
+        "Open the window slowly.",
+        "I hope you know the road home.",
+        "The old boat floated over the ocean.",
+        "Tomorrow we will show our photos at home.",
+        "A moment ago, the broken phone spoke in a low tone.",
+        "Joe wrote a whole poem about the golden October sunset over the coast."
+      ],
+      "tongue_twisters": [
+        "The lonely goat rowed the old boat over the slow flow.",
+        "Joe's old yellow bowl holds cold oatmeal."
+      ]
     },
     {
       "key": "ay",
@@ -321,8 +1078,30 @@
       "display": "ay (as in 'day')",
       "articulation_tip": "Glide from 'e' toward 'ee': start with the mouth half open and finish with a slight smile. It is a moving sound, not a flat 'e'.",
       "common_confusions": ["eh", "eye"],
-      "example_words": ["day", "say", "make", "eight", "great", "rain", "table", "always"],
-      "minimal_pairs": [["pain", "pen"], ["late", "let"], ["taste", "test"], ["paper", "pepper"]]
+      "spellings": ["a", "ai", "ay", "ea", "ei", "ey"],
+      "examples": {
+        "initial": ["eight", "age", "able", "aim", "agent", "ancient", "April", "alien", "apron", "eighteen"],
+        "medial": ["make", "rain", "table", "paper", "place", "station", "later", "danger", "became", "mistake"],
+        "final": ["day", "say", "way", "play", "stay", "today", "away", "okay", "gray", "may"]
+      },
+      "minimal_pairs": [
+        ["pain", "pen"], ["late", "let"], ["taste", "test"], ["gate", "get"],
+        ["age", "edge"], ["main", "men"], ["sale", "sell"], ["date", "debt"],
+        ["wait", "wet"], ["fail", "fell"], ["paper", "pepper"], ["lake", "like"],
+        ["may", "my"], ["pay", "pie"], ["race", "rice"]
+      ],
+      "practice_sentences": [
+        "Stay and play all day.",
+        "Make the cake today.",
+        "The train came late again.",
+        "They say the rain may stay away.",
+        "The waiter placed eight plates on the table.",
+        "Yesterday, the famous painter explained the ancient paintings at the station."
+      ],
+      "tongue_twisters": [
+        "Eight gray geese gazed at the gate.",
+        "James waited all day for the late train to Spain."
+      ]
     },
     {
       "key": "eye",
@@ -330,8 +1109,30 @@
       "display": "i (as in 'time')",
       "articulation_tip": "Glide from a wide-open 'ah' up toward 'ee'. Open big, finish with a small smile.",
       "common_confusions": ["ay", "ah"],
-      "example_words": ["time", "like", "my", "find", "night", "while", "quite", "describe"],
-      "minimal_pairs": [["like", "lake"], ["my", "may"], ["time", "tame"], ["find", "fond"]]
+      "spellings": ["i", "y", "igh", "ie", "uy"],
+      "examples": {
+        "initial": ["ice", "idea", "island", "item", "iron", "eye", "identify", "idle", "icon", "ivory"],
+        "medial": ["time", "like", "find", "night", "while", "quite", "describe", "smile", "drive", "behind"],
+        "final": ["my", "why", "buy", "try", "fly", "sky", "high", "goodbye", "reply", "July"]
+      },
+      "minimal_pairs": [
+        ["like", "lake"], ["my", "may"], ["time", "tame"], ["ride", "raid"],
+        ["mine", "main"], ["file", "fail"], ["light", "late"], ["try", "tray"],
+        ["buy", "bay"], ["pie", "pay"], ["rice", "race"], ["lie", "lay"],
+        ["sigh", "say"], ["while", "whale"], ["find", "fond"]
+      ],
+      "practice_sentences": [
+        "I like my bike.",
+        "Why try to fly so high?",
+        "The bright light shined all night.",
+        "Sometimes I find time to write five lines.",
+        "The child smiled while riding the white bicycle.",
+        "Behind the island, the pilot identified nine bright lights in the night sky."
+      ],
+      "tongue_twisters": [
+        "Five fine wives drive nine white bikes at night.",
+        "The bright knight fights with all his might twice a night."
+      ]
     },
     {
       "key": "ow",
@@ -339,8 +1140,30 @@
       "display": "ow (as in 'now')",
       "articulation_tip": "Glide from a wide-open 'ah' into rounded 'oo' — open big, then round your lips.",
       "common_confusions": ["oh", "ah"],
-      "example_words": ["now", "how", "house", "about", "down", "around", "thousand", "mountain"],
-      "minimal_pairs": [["now", "no"], ["down", "dawn"], ["found", "fond"], ["town", "tone"]]
+      "spellings": ["ou", "ow"],
+      "examples": {
+        "initial": ["out", "our", "hour", "outside", "owl", "ouch", "outcome", "outline", "outfit", "outdoor"],
+        "medial": ["house", "about", "around", "thousand", "mountain", "found", "sound", "ground", "crowd", "shower"],
+        "final": ["now", "how", "cow", "allow", "somehow", "eyebrow", "wow", "vow", "plow", "brow"]
+      },
+      "minimal_pairs": [
+        ["now", "no"], ["how", "hoe"], ["town", "tone"], ["loud", "load"],
+        ["down", "dawn"], ["found", "fond"], ["pound", "pond"], ["shout", "shot"],
+        ["doubt", "dot"], ["gown", "gone"], ["owl", "oil"], ["mouse", "moss"],
+        ["couch", "coach"]
+      ],
+      "practice_sentences": [
+        "The mouse is in our house.",
+        "How did you find the town?",
+        "The loud crowd shouted outside the house.",
+        "Around the mountain, thousands of flowers bloomed.",
+        "I doubt the brown owl will come down from the tower now.",
+        "The proud scout counted about a thousand clouds from the mountaintop."
+      ],
+      "tongue_twisters": [
+        "How now, brown cow?",
+        "The loud crowd shouted proudly outside the courthouse."
+      ]
     },
     {
       "key": "oy",
@@ -348,8 +1171,29 @@
       "display": "oy (as in 'boy')",
       "articulation_tip": "Glide from rounded 'aw' into 'ee' — start with round lips and finish with a smile.",
       "common_confusions": ["oh", "eye"],
-      "example_words": ["boy", "enjoy", "voice", "choice", "point", "noise", "employ", "avoid"],
-      "minimal_pairs": [["boy", "buy"], ["toy", "tie"], ["voice", "vice"], ["oil", "isle"]]
+      "spellings": ["oi", "oy"],
+      "examples": {
+        "initial": ["oil", "oyster", "ointment"],
+        "medial": ["voice", "choice", "point", "noise", "avoid", "join", "coin", "soil", "poison", "royal"],
+        "final": ["boy", "enjoy", "toy", "joy", "employ", "destroy", "annoy", "soy", "deploy"]
+      },
+      "minimal_pairs": [
+        ["boy", "buy"], ["toy", "tie"], ["voice", "vice"], ["oil", "isle"],
+        ["oil", "owl"], ["joy", "jay"], ["point", "pint"], ["coin", "cone"],
+        ["foil", "file"], ["boil", "bile"], ["poise", "pies"]
+      ],
+      "practice_sentences": [
+        "The boy has a toy.",
+        "Join the boys at the point.",
+        "Her voice rose above the noise.",
+        "The royal envoy avoided the spoiled oysters.",
+        "The employer's choice annoyed the loyal boys.",
+        "Roy enjoyed pointing out the poison in the soil with a loud voice."
+      ],
+      "tongue_twisters": [
+        "Roy's royal toys bring joy to noisy boys.",
+        "Troy avoided the boiling oil with poise."
+      ]
     },
     {
       "key": "er",
@@ -357,8 +1201,267 @@
       "display": "er (as in 'bird')",
       "articulation_tip": "Curl your tongue up and back as for 'r' and hold it there while voicing the vowel — the whole vowel is r-colored.",
       "common_confusions": ["uh", "ah"],
-      "example_words": ["bird", "work", "first", "learn", "thirty", "Thursday", "world", "early"],
-      "minimal_pairs": [["work", "walk"], ["bird", "bed"], ["hurt", "heart"], ["first", "fast"]]
+      "spellings": ["er", "ir", "ur", "ear", "or", "our"],
+      "examples": {
+        "initial": ["early", "earth", "earn", "urban", "urgent", "urge"],
+        "medial": ["bird", "work", "first", "learn", "thirty", "Thursday", "world", "person", "perfect", "nervous"],
+        "final": ["her", "sir", "fur", "stir", "occur", "prefer", "refer", "blur"]
+      },
+      "minimal_pairs": [
+        ["work", "walk"], ["hurt", "heart"], ["first", "fast"], ["shirt", "short"],
+        ["bird", "board"], ["burn", "barn"], ["fur", "far"], ["turn", "torn"],
+        ["stir", "star"], ["curd", "card"], ["firm", "farm"], ["word", "ward"],
+        ["her", "hair"], ["bird", "bed"]
+      ],
+      "practice_sentences": [
+        "The bird hurt her wing.",
+        "Learn the first thirty words.",
+        "The nervous girl heard the early birds on Thursday.",
+        "The person at work prefers her coffee served early.",
+        "On Thursday, the journalist confirmed the worst rumors about the merger.",
+        "Her perfect homework earned the first prize in the world contest."
+      ],
+      "tongue_twisters": [
+        "The early bird heard thirty worms turning in the dirt.",
+        "Pearl's purple shirt was perfectly pressed on Thursday."
+      ]
+    },
+    {
+      "key": "flap_t",
+      "ipa": ["ɾ"],
+      "display": "flap t (American, as in 'water')",
+      "articulation_tip": "In American English, 't' or 'd' between vowels becomes a quick tap: flick your tongue tip once against the ridge behind your upper teeth — faster and softer than a full 't', almost like a very fast 'd'. Do not hold or release a puff of air.",
+      "common_confusions": ["t", "d"],
+      "spellings": ["t", "tt", "d", "dd"],
+      "detectable": false,
+      "examples": {
+        "initial": [],
+        "medial": ["water", "better", "city", "butter", "little", "matter", "pretty", "bottle", "party", "daughter", "letter", "meeting"],
+        "final": []
+      },
+      "minimal_pairs": [
+        ["writer", "rider"], ["latter", "ladder"], ["metal", "medal"],
+        ["betting", "bedding"], ["coated", "coded"], ["waiting", "wading"],
+        ["petal", "pedal"], ["matter", "madder"]
+      ],
+      "practice_sentences": [
+        "Put a little butter on it.",
+        "The water in the city is getting better.",
+        "What a pretty little bottle of butter!",
+        "My daughter wrote a better letter at the meeting.",
+        "It doesn't matter if the waiter brought a lot of water later."
+      ],
+      "tongue_twisters": [
+        "Betty bought a bit of better butter, but the butter Betty bought was bitter.",
+        "The little waiter poured a lot of water on the platter."
+      ]
+    },
+    {
+      "key": "glottal_t",
+      "ipa": ["ʔ"],
+      "display": "glottal stop (as in 'button')",
+      "articulation_tip": "Before an unstressed 'n', American 't' often becomes a glottal stop: briefly close your vocal cords to cut the air, then release straight into 'n' through the nose. Say 'but-' then catch your breath and finish with 'n' — the tongue never releases a real 't'.",
+      "common_confusions": ["t", "d"],
+      "spellings": ["t", "tt"],
+      "detectable": false,
+      "examples": {
+        "initial": [],
+        "medial": ["button", "kitten", "mountain", "certain", "important", "cotton", "curtain", "sentence", "written", "forgotten", "eaten", "Manhattan"],
+        "final": []
+      },
+      "minimal_pairs": [],
+      "practice_sentences": [
+        "The button is on the curtain.",
+        "The kitten sat on the cotton blanket.",
+        "It is certainly important to write a complete sentence.",
+        "The mountain climbers had eaten everything by midnight.",
+        "I'm certain the written statement about Manhattan was important."
+      ],
+      "tongue_twisters": [
+        "The kitten bit the button on the mitten.",
+        "A certain curtain in Manhattan was made of cotton."
+      ]
+    },
+    {
+      "key": "hw",
+      "ipa": ["ʍ", "hw"],
+      "display": "wh (as in 'which', with breath)",
+      "articulation_tip": "Some American speakers distinguish 'which' from 'witch' by starting 'wh' words with a puff of breath: blow air gently (like 'h') while rounding your lips for 'w'. Modern American English usually merges both into plain 'w' — this distinction is optional polish.",
+      "common_confusions": ["w", "h"],
+      "spellings": ["wh"],
+      "detectable": false,
+      "examples": {
+        "initial": ["which", "when", "where", "why", "what", "while", "white", "whether", "whale", "whisper"],
+        "medial": ["somewhere", "anywhere", "meanwhile", "awhile", "nowhere"],
+        "final": []
+      },
+      "minimal_pairs": [
+        ["which", "witch"], ["whale", "wail"], ["where", "wear"], ["whine", "wine"],
+        ["whet", "wet"], ["what", "watt"], ["whirled", "world"], ["whether", "weather"],
+        ["while", "wile"]
+      ],
+      "practice_sentences": [
+        "Which whale is white?",
+        "Where and when did you whisper?",
+        "Why whine about the weather while waiting?",
+        "Meanwhile, the white whale swam somewhere near the wharf.",
+        "I wonder whether the whistling wind whipped the white wheat."
+      ],
+      "tongue_twisters": [
+        "Why whisper while the white whale whirls?",
+        "Whether the weather is fine, we'll watch the whales awhile."
+      ]
+    },
+    {
+      "key": "ar",
+      "ipa": ["ɑr"],
+      "display": "ar (as in 'car')",
+      "articulation_tip": "Open wide for 'ah' (as in 'father'), then curl your tongue back into 'r' while keeping the jaw open. Two movements blended into one smooth vowel: 'aaah-r'.",
+      "common_confusions": ["er", "or", "ah"],
+      "spellings": ["ar", "ear"],
+      "detectable": false,
+      "examples": {
+        "initial": ["are", "art", "arm", "army", "artist", "argue", "arch", "armor"],
+        "medial": ["heart", "start", "market", "party", "garden", "large", "hardly", "partner", "charming", "apartment"],
+        "final": ["car", "far", "star", "bar", "guitar", "jar", "scar"]
+      },
+      "minimal_pairs": [
+        ["heart", "hurt"], ["far", "fur"], ["barn", "burn"], ["star", "stir"],
+        ["card", "curd"], ["farm", "firm"], ["hard", "heard"], ["bar", "bore"],
+        ["far", "four"], ["card", "cord"], ["barn", "born"], ["star", "store"],
+        ["cart", "court"]
+      ],
+      "practice_sentences": [
+        "The car is far.",
+        "Start the car in the dark.",
+        "The artist parked the car in the large garden.",
+        "My partner's heart started beating hard at the party.",
+        "The charming guard remarked on the sergeant's sharp armor."
+      ],
+      "tongue_twisters": [
+        "Carl parked the car in the dark farmyard.",
+        "The starving sergeant carved a large arch in the dark."
+      ]
+    },
+    {
+      "key": "or",
+      "ipa": ["ɔr"],
+      "display": "or (as in 'four')",
+      "articulation_tip": "Round your lips for 'aw', then glide into 'r' by curling the tongue back, keeping the lips slightly rounded the whole time.",
+      "common_confusions": ["er", "ar", "aw"],
+      "spellings": ["or", "ore", "oor", "our", "ar"],
+      "detectable": false,
+      "examples": {
+        "initial": ["or", "order", "organize", "ordinary", "oral", "orbit", "organ", "orchard"],
+        "medial": ["north", "morning", "important", "story", "before", "forty", "sport", "report", "corner", "airport"],
+        "final": ["four", "door", "more", "floor", "store", "score", "wore", "shore", "ignore", "pour"]
+      },
+      "minimal_pairs": [
+        ["four", "far"], ["born", "barn"], ["cord", "card"], ["court", "cart"],
+        ["store", "star"], ["bore", "bar"], ["core", "car"], ["port", "part"],
+        ["form", "farm"], ["torn", "turn"], ["short", "shirt"], ["board", "bird"],
+        ["ward", "word"], ["for", "fur"]
+      ],
+      "practice_sentences": [
+        "The store is on the corner.",
+        "Pour more water before the storm.",
+        "Every morning, forty reporters record the sports scores.",
+        "The orchestra performed an important historical piece in New York.",
+        "George was born on the fourth floor of the northern fortress."
+      ],
+      "tongue_twisters": [
+        "Four more doors on the fourth floor.",
+        "Norma orders four more portions of pork every morning."
+      ]
+    },
+    {
+      "key": "air",
+      "ipa": ["ɛr", "eə"],
+      "display": "air (as in 'hair')",
+      "articulation_tip": "Start with 'e' as in 'bed', then curl your tongue back into 'r' while keeping your mouth half open: 'eh-r' in one smooth glide.",
+      "common_confusions": ["er", "eh", "ear"],
+      "spellings": ["air", "are", "ear", "ere", "eir"],
+      "detectable": false,
+      "examples": {
+        "initial": ["air", "area", "airport", "airline", "error", "heir"],
+        "medial": ["parent", "careful", "dairy", "fairy", "library", "various", "scary", "sharing", "wearing", "barely"],
+        "final": ["hair", "care", "where", "there", "chair", "wear", "fair", "stair", "square", "repair"]
+      },
+      "minimal_pairs": [
+        ["hair", "her"], ["fair", "fur"], ["where", "were"], ["stare", "stir"],
+        ["chair", "cheer"], ["fair", "fear"], ["hair", "here"], ["bear", "beer"],
+        ["stare", "steer"], ["dare", "deer"], ["air", "ear"], ["pair", "peer"]
+      ],
+      "practice_sentences": [
+        "Where is the chair?",
+        "Take care of your hair.",
+        "The fair is over there in the square.",
+        "My parents carefully repaired the stairs.",
+        "The careful chairman shared various rare items at the fair."
+      ],
+      "tongue_twisters": [
+        "The hairy bear stared at the scary fairy on the stairs.",
+        "Claire shares her rare pears with care."
+      ]
+    },
+    {
+      "key": "ear",
+      "ipa": ["ɪr", "ɪə"],
+      "display": "ear (as in 'here')",
+      "articulation_tip": "Start with the short 'i' of 'sit', then curl the tongue back into 'r': 'ih-r' gliding smoothly into one vowel.",
+      "common_confusions": ["er", "ee", "air"],
+      "spellings": ["ear", "eer", "ere", "ier"],
+      "detectable": false,
+      "examples": {
+        "initial": ["ear", "era", "eerie"],
+        "medial": ["period", "serious", "nearly", "hero", "zero", "experience", "material", "mysterious", "cheerful", "weird"],
+        "final": ["here", "near", "year", "dear", "clear", "appear", "career", "engineer", "fear", "hear"]
+      },
+      "minimal_pairs": [
+        ["cheer", "chair"], ["fear", "fair"], ["here", "hair"], ["beer", "bear"],
+        ["steer", "stare"], ["deer", "dare"], ["ear", "air"], ["peer", "pair"],
+        ["hear", "her"], ["beard", "bird"], ["fear", "fur"]
+      ],
+      "practice_sentences": [
+        "Come here, my dear.",
+        "The new year is near.",
+        "I hear the cheerful engineer.",
+        "After nearly a year, the mysterious hero appeared here.",
+        "The serious engineer's career experience spans thirty years."
+      ],
+      "tongue_twisters": [
+        "The cheerful engineer steered clear of the weird pier.",
+        "Here and there, the deer appear near the clear river."
+      ]
+    },
+    {
+      "key": "oor",
+      "ipa": ["ʊr", "ʊə"],
+      "display": "oor (as in 'tour')",
+      "articulation_tip": "Start with the short 'oo' of 'book', lips loosely rounded, then curl the tongue back into 'r'. Many Americans say 'poor' and 'sure' with 'or' instead — both are fine.",
+      "common_confusions": ["er", "or", "oo_short"],
+      "spellings": ["our", "ure", "oor", "ur"],
+      "detectable": false,
+      "examples": {
+        "initial": [],
+        "medial": ["during", "tourist", "jury", "curious", "security", "Europe", "furious", "plural", "rural", "insurance"],
+        "final": ["tour", "sure", "poor", "cure", "pure", "mature", "secure", "endure"]
+      },
+      "minimal_pairs": [
+        ["poor", "pour"], ["tour", "tore"], ["moor", "more"], ["lure", "lore"],
+        ["sure", "shore"]
+      ],
+      "practice_sentences": [
+        "Are you sure the tour is secure?",
+        "The poor tourist was curious.",
+        "During the tour, the jury remained furious.",
+        "I'm sure the rural European tour will be pure pleasure.",
+        "The insurance assured the security of the poor tourists."
+      ],
+      "tongue_twisters": [
+        "Sure, the pure cure endured on the poor moor.",
+        "The curious tourist assured the furious jury."
+      ]
     }
   ]
 }

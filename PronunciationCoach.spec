@@ -12,6 +12,7 @@ from PyInstaller.utils.hooks import collect_all
 datas = [
     ("src/pronunciation_coach/data/sentences_en.csv", "pronunciation_coach/data"),
     ("src/pronunciation_coach/data/phoneme_kb.json", "pronunciation_coach/data"),
+    ("src/pronunciation_coach/data/clusters_kb.json", "pronunciation_coach/data"),
     ("src/pronunciation_coach/persistence/schema.sql", "pronunciation_coach/persistence"),
 ]
 binaries = []

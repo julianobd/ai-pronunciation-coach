@@ -8,7 +8,7 @@ from __future__ import annotations
 
 from ..core import phoneme_kb
 from ..persistence.repository import ExerciseCacheRepo, PhonemeStatsRepo
-from ..providers.base import Exercise, ExerciseProvider
+from ..providers.base import CLUSTER, Exercise, ExerciseProvider
 from ..providers.offline import OfflineProvider
 
 # Sensible targets before the user has enough attempt history.
@@ -49,6 +49,11 @@ class LearningEngine:
             infos = [phoneme_kb.get_info(k) for k in DEFAULT_TARGET_KEYS[:2]]
             keys = [i.key for i in infos]
 
+        # Cluster drills are KB-driven and free to generate; LLM providers
+        # don't know this exercise type.
+        if exercise_type == CLUSTER:
+            return self.offline.generate_exercise(infos, exercise_type, count)
+
         cached = self.cache.pop_unconsumed(exercise_type, keys)
         if cached:
             return Exercise.from_payload(cached)
@@ -65,6 +70,8 @@ class LearningEngine:
 
     def prefetch(self, exercise_type: str, target_keys: list[str] | None = None) -> None:
         """Generate one exercise ahead of time into the cache (worker thread)."""
+        if exercise_type == CLUSTER:
+            return  # generated locally on demand, nothing to prefetch
         keys = target_keys or self.weakest_phoneme_keys()
         infos = [info for info in (phoneme_kb.get_info(k) for k in keys) if info]
         if not infos or isinstance(self.provider, OfflineProvider):

@@ -1,0 +1,224 @@
+{
+  "clusters": [
+    {
+      "key": "st",
+      "display": "st (as in 'stop')",
+      "phoneme_keys": ["s", "t"],
+      "spellings": ["st"],
+      "articulation_tip": "Hiss the 's' first, then stop it cleanly with 't' — no vowel before or between ('stop', not 'estop').",
+      "common_errors": ["Adding a vowel before: 'estop' (common for Spanish and Portuguese speakers)", "Dropping the 't': 'sop'", "Inserting a vowel between: 's-a-top'"],
+      "example_words": ["stop", "start", "study", "station", "store", "student", "still", "stand"],
+      "practice_sentences": ["Stop at the station and stay still.", "The student started studying statistics last September."]
+    },
+    {
+      "key": "sp",
+      "display": "sp (as in 'speak')",
+      "phoneme_keys": ["s", "p"],
+      "spellings": ["sp"],
+      "articulation_tip": "Start the 's' hiss with your lips already closing for 'p', then release the 'p' without a vowel in between.",
+      "common_errors": ["Adding a vowel before: 'espeak'", "Aspirating the 'p' too strongly (after 's' it should be soft)"],
+      "example_words": ["speak", "sport", "space", "special", "spend", "spell", "spoon", "spider"],
+      "practice_sentences": ["Speak Spanish at the sports space.", "The spider spun a special spiral web."]
+    },
+    {
+      "key": "sk",
+      "display": "sk (as in 'school')",
+      "phoneme_keys": ["s", "k"],
+      "spellings": ["sk", "sc", "sch"],
+      "articulation_tip": "Hiss the 's' while the back of your tongue rises for 'k', then release straight into the vowel.",
+      "common_errors": ["Adding a vowel before: 'eschool'", "Dropping the 's': 'kool'"],
+      "example_words": ["school", "skill", "sky", "skin", "scale", "score", "skate", "scared"],
+      "practice_sentences": ["The school skating club skipped the skills test.", "The scared skier scanned the sky."]
+    },
+    {
+      "key": "str",
+      "display": "str (as in 'street')",
+      "phoneme_keys": ["s", "t", "r"],
+      "spellings": ["str"],
+      "articulation_tip": "Start the 's' hiss, stop it crisply with 't', and release straight into 'r' — three sounds, no vowels between them.",
+      "common_errors": ["Adding a vowel before: 'estreet'", "Dropping the 't': 'sreet'", "Turning 'r' into 'l': 'stleet'"],
+      "example_words": ["street", "strong", "string", "strange", "structure", "stress", "straight", "strategy"],
+      "practice_sentences": ["The street is straight and strong.", "Strangers under stress struggled with the strict structure."]
+    },
+    {
+      "key": "spr",
+      "display": "spr (as in 'spring')",
+      "phoneme_keys": ["s", "p", "r"],
+      "spellings": ["spr"],
+      "articulation_tip": "Hiss 's', close the lips for 'p', and release directly into 'r' with rounded lips — one smooth burst.",
+      "common_errors": ["Adding a vowel before: 'espring'", "Dropping the 'p': 'sring'", "Inserting a vowel: 'sip-ring'"],
+      "example_words": ["spring", "spread", "spray", "sprint", "sprout", "sprinkle"],
+      "practice_sentences": ["In spring, sprinkle water on the sprouts.", "The sprinter sprained his ankle while sprinting."]
+    },
+    {
+      "key": "spl",
+      "display": "spl (as in 'split')",
+      "phoneme_keys": ["s", "p", "l"],
+      "spellings": ["spl"],
+      "articulation_tip": "Hiss 's', close the lips for 'p', and release directly into 'l' with the tongue tip on the ridge behind your teeth.",
+      "common_errors": ["Adding a vowel before: 'esplit'", "Dropping the 'p': 'slit'", "Turning 'l' into 'r': 'sprit'"],
+      "example_words": ["split", "splash", "splendid", "splinter", "splatter", "splice"],
+      "practice_sentences": ["The splendid splash split the silence.", "Don't splatter paint when you split the boards."]
+    },
+    {
+      "key": "scr",
+      "display": "scr (as in 'screen')",
+      "phoneme_keys": ["s", "k", "r"],
+      "spellings": ["scr"],
+      "articulation_tip": "Hiss 's', raise the back of the tongue for 'k', and release directly into 'r' — keep the three sounds tight together.",
+      "common_errors": ["Adding a vowel before: 'escreen'", "Dropping the 'k': 'sreen'", "Turning 'r' into 'l': 'sclean'"],
+      "example_words": ["screen", "script", "scratch", "scream", "screw", "scrub", "scroll", "scramble"],
+      "practice_sentences": ["Scroll the screen and read the script.", "The scared cat scratched and screamed."]
+    },
+    {
+      "key": "shr",
+      "display": "shr (as in 'shrimp')",
+      "phoneme_keys": ["sh", "r"],
+      "spellings": ["shr"],
+      "articulation_tip": "Make the 'sh' sound with rounded lips and glide straight into 'r' without any vowel — the lips stay rounded for both.",
+      "common_errors": ["Saying 's' instead of 'sh': 'srimp'", "Inserting a vowel: 'shirimp'"],
+      "example_words": ["shrimp", "shrink", "shrub", "shred", "shrug", "shrine"],
+      "practice_sentences": ["The shrimp shrank in the shrinking pond.", "She shrugged and shredded the paper near the shrub."]
+    },
+    {
+      "key": "thr",
+      "display": "thr (as in 'three')",
+      "phoneme_keys": ["th", "r"],
+      "spellings": ["thr"],
+      "articulation_tip": "Touch your tongue tip between your teeth for 'th', then pull it back quickly into 'r' — the tongue moves from teeth to curled-back in one motion.",
+      "common_errors": ["Saying 't' instead of 'th': 'tree'", "Saying 'f' instead of 'th': 'free'", "Inserting a vowel: 'thiree'"],
+      "example_words": ["three", "throw", "through", "throat", "thread", "thrill", "threat", "throne"],
+      "practice_sentences": ["Throw three threads through the hole.", "The thrilling throne speech threatened no one."]
+    },
+    {
+      "key": "dr",
+      "display": "dr (as in 'drive')",
+      "phoneme_keys": ["d", "r"],
+      "spellings": ["dr"],
+      "articulation_tip": "Place the tongue for 'd' and release it directly into 'r' — in fast speech it sounds almost like 'jr' ('drive' ≈ 'jrive'), which is normal.",
+      "common_errors": ["Inserting a vowel: 'dirive'", "Turning 'r' into 'l': 'dlive'"],
+      "example_words": ["drive", "dream", "drink", "drop", "draw", "dress", "drum", "dragon"],
+      "practice_sentences": ["Don't drink and drive.", "The dragon dreamed of drumming in the dry desert."]
+    },
+    {
+      "key": "tr",
+      "display": "tr (as in 'try')",
+      "phoneme_keys": ["t", "r"],
+      "spellings": ["tr"],
+      "articulation_tip": "Place the tongue for 't' and release it directly into 'r' — in fast speech it sounds almost like 'chr' ('try' ≈ 'chry'), which is normal.",
+      "common_errors": ["Inserting a vowel: 'tirain'", "Turning 'r' into 'l': 'tly'"],
+      "example_words": ["try", "train", "tree", "travel", "trip", "true", "track", "trade"],
+      "practice_sentences": ["Try to travel by train.", "The truck driver tracked the trail through the trees."]
+    },
+    {
+      "key": "gr",
+      "display": "gr (as in 'green')",
+      "phoneme_keys": ["g", "r"],
+      "spellings": ["gr"],
+      "articulation_tip": "Press the back of the tongue for 'g' and release straight into 'r' — keep the voice on through both sounds.",
+      "common_errors": ["Turning 'r' into 'l': 'gleen'", "Inserting a vowel: 'gureen'"],
+      "example_words": ["green", "great", "group", "grow", "ground", "grass", "grade", "grandmother"],
+      "practice_sentences": ["The green grass grows on the ground.", "Grandma's group graduated with great grades."]
+    },
+    {
+      "key": "kr",
+      "display": "cr (as in 'cream')",
+      "phoneme_keys": ["k", "r"],
+      "spellings": ["cr", "kr", "chr"],
+      "articulation_tip": "Press the back of the tongue for 'k' and release straight into 'r' with a small puff of air.",
+      "common_errors": ["Turning 'r' into 'l': 'cleam'", "Inserting a vowel: 'kareem'"],
+      "example_words": ["cream", "cross", "crowd", "create", "crazy", "crash", "credit", "crime"],
+      "practice_sentences": ["The crazy crowd crossed the crosswalk.", "The creative critic criticized the cream-colored crown."]
+    },
+    {
+      "key": "pl",
+      "display": "pl (as in 'play')",
+      "phoneme_keys": ["p", "l"],
+      "spellings": ["pl"],
+      "articulation_tip": "Close the lips for 'p' and release them straight into 'l' with the tongue tip already on the ridge behind your teeth.",
+      "common_errors": ["Turning 'l' into 'r': 'pray'", "Inserting a vowel: 'pelay'"],
+      "example_words": ["play", "place", "plan", "plant", "please", "plate", "plenty", "planet"],
+      "practice_sentences": ["Please place the plant on the plate.", "We planned plenty of plays at the playground."]
+    },
+    {
+      "key": "bl",
+      "display": "bl (as in 'blue')",
+      "phoneme_keys": ["b", "l"],
+      "spellings": ["bl"],
+      "articulation_tip": "Close the lips for 'b' (voice on) and release them straight into 'l' — no vowel between.",
+      "common_errors": ["Turning 'l' into 'r': 'brue'", "Inserting a vowel: 'belue'"],
+      "example_words": ["black", "blue", "block", "blood", "blow", "blank", "blanket", "blame"],
+      "practice_sentences": ["The black and blue blanket blocked the breeze.", "Don't blame the blind man for the blank page."]
+    },
+    {
+      "key": "fl",
+      "display": "fl (as in 'fly')",
+      "phoneme_keys": ["f", "l"],
+      "spellings": ["fl"],
+      "articulation_tip": "Touch your upper teeth to your lower lip for 'f' and release the air straight into 'l'.",
+      "common_errors": ["Turning 'l' into 'r': 'fry'", "Inserting a vowel: 'falai'"],
+      "example_words": ["fly", "floor", "flower", "flag", "flat", "flight", "flow", "fluid"],
+      "practice_sentences": ["The flag flew over the flat floor.", "Flowers flowed along the flooded field."]
+    },
+    {
+      "key": "cl",
+      "display": "cl (as in 'class')",
+      "phoneme_keys": ["k", "l"],
+      "spellings": ["cl", "kl"],
+      "articulation_tip": "Press the back of the tongue for 'k' and release straight into 'l' with the tongue tip on the ridge.",
+      "common_errors": ["Turning 'l' into 'r': 'crass'", "Inserting a vowel: 'kelass'"],
+      "example_words": ["class", "clean", "clear", "climb", "clock", "close", "cloud", "club"],
+      "practice_sentences": ["Clean the classroom clock.", "The climbing club closed under clear clouds."]
+    },
+    {
+      "key": "gl",
+      "display": "gl (as in 'glass')",
+      "phoneme_keys": ["g", "l"],
+      "spellings": ["gl"],
+      "articulation_tip": "Press the back of the tongue for 'g' (voice on) and release straight into 'l'.",
+      "common_errors": ["Turning 'l' into 'r': 'grass'", "Inserting a vowel: 'galass'"],
+      "example_words": ["glass", "glad", "globe", "glove", "glow", "glue", "glance", "glory"],
+      "practice_sentences": ["The glass globe glowed gladly.", "She glanced at the glittering glue on her gloves."]
+    },
+    {
+      "key": "sl",
+      "display": "sl (as in 'sleep')",
+      "phoneme_keys": ["s", "l"],
+      "spellings": ["sl"],
+      "articulation_tip": "Hiss the 's' and slide the tongue tip up to the ridge for 'l' without stopping the airflow.",
+      "common_errors": ["Adding a vowel before: 'esleep'", "Dropping the 's': 'leep'"],
+      "example_words": ["sleep", "slow", "slide", "slim", "slice", "slip", "slope", "slang"],
+      "practice_sentences": ["The sleepy sloth slid slowly down the slope.", "Slice the bread slowly so it doesn't slip."]
+    },
+    {
+      "key": "sm",
+      "display": "sm (as in 'small')",
+      "phoneme_keys": ["s", "m"],
+      "spellings": ["sm"],
+      "articulation_tip": "Hiss the 's' and close the lips into 'm', letting the sound move into the nose — keep it one smooth motion.",
+      "common_errors": ["Adding a vowel before: 'esmall'", "Inserting a vowel: 'simall'"],
+      "example_words": ["small", "smile", "smart", "smell", "smooth", "smoke"],
+      "practice_sentences": ["The small smart boy smiled.", "The smooth smoke smelled of smoked salmon."]
+    },
+    {
+      "key": "sn",
+      "display": "sn (as in 'snow')",
+      "phoneme_keys": ["s", "n"],
+      "spellings": ["sn"],
+      "articulation_tip": "Hiss the 's' with the tongue tip near the ridge, then seal it there for 'n' and let the sound exit through the nose.",
+      "common_errors": ["Adding a vowel before: 'esnow'", "Inserting a vowel: 'sinow'"],
+      "example_words": ["snow", "snake", "snack", "sneeze", "snore", "snap"],
+      "practice_sentences": ["The snake snapped at the snack in the snow.", "His sneezing and snoring scared the snail."]
+    },
+    {
+      "key": "sw",
+      "display": "sw (as in 'sweet')",
+      "phoneme_keys": ["s", "w"],
+      "spellings": ["sw"],
+      "articulation_tip": "Hiss the 's' while rounding your lips for 'w', then release into the vowel — the lips round during the 's'.",
+      "common_errors": ["Adding a vowel before: 'esweet'", "Dropping the 'w': 'seet'"],
+      "example_words": ["sweet", "swim", "switch", "swing", "sweater", "swan"],
+      "practice_sentences": ["The swan swam swiftly in the sweet water.", "Switch off the light and swing the sweater over your shoulder."]
+    }
+  ]
+}

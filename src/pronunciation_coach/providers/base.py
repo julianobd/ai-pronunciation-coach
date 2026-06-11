@@ -12,16 +12,17 @@ from dataclasses import dataclass, field
 
 import jsonschema
 
-WORD, MINIMAL_PAIR, SENTENCE, CONVERSATION = (
-    "word", "minimal_pair", "sentence", "conversation",
+WORD, MINIMAL_PAIR, SENTENCE, CONVERSATION, CLUSTER = (
+    "word", "minimal_pair", "sentence", "conversation", "cluster",
 )
-EXERCISE_TYPES = [WORD, MINIMAL_PAIR, SENTENCE, CONVERSATION]
+EXERCISE_TYPES = [WORD, MINIMAL_PAIR, SENTENCE, CONVERSATION, CLUSTER]
 
 EXERCISE_TYPE_LABELS = {
     WORD: "Word practice",
     MINIMAL_PAIR: "Minimal pairs",
     SENTENCE: "Sentences",
     CONVERSATION: "Conversation",
+    CLUSTER: "Consonant clusters",
 }
 
 

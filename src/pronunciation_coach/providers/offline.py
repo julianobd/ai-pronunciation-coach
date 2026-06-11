@@ -7,9 +7,10 @@ from __future__ import annotations
 
 import random
 
-from ..core import sentence_bank
+from ..core import cluster_kb, sentence_bank
 from ..core.phoneme_kb import PhonemeInfo
 from .base import (
+    CLUSTER,
     CONVERSATION,
     MINIMAL_PAIR,
     SENTENCE,
@@ -72,20 +73,54 @@ class OfflineProvider(ExerciseProvider):
             if not items:  # phoneme with no listed pairs (e.g. schwa)
                 items = [", ".join(info.example_words[:2]) for info in weak_phonemes]
             title = f"Minimal pairs for {title_target}"
-        elif exercise_type in (SENTENCE, CONVERSATION):
+        elif exercise_type == SENTENCE:
+            # Curated KB sentences first (easy -> hard); sentence bank tops up.
+            pool: list[str] = []
             for info in weak_phonemes:
-                items.extend(
-                    sentence_bank.sentences_with_phoneme(info.ipa, limit=count)
-                )
-            random.shuffle(items)
-            items = items[:count]
+                pool.extend(info.practice_sentences)
+            if len(pool) > count:
+                picked = sorted(random.sample(range(len(pool)), count))
+                items = [pool[i] for i in picked]
+            else:
+                items = list(pool)
+            if len(items) < count:
+                for info in weak_phonemes:
+                    items.extend(
+                        sentence_bank.sentences_with_phoneme(info.ipa, limit=count)
+                    )
+                items = list(dict.fromkeys(items))[:count]
             if not items:
                 items = [sentence_bank.random_sentence() for _ in range(count)]
-            title = (
-                f"Read these lines aloud ({title_target})"
-                if exercise_type == CONVERSATION
-                else f"Sentences with {title_target}"
-            )
+            title = f"Sentences with {title_target}"
+        elif exercise_type == CONVERSATION:
+            # Tongue twisters plus the hardest curated sentences.
+            for info in weak_phonemes:
+                items.extend(info.tongue_twisters)
+                items.extend(info.practice_sentences[-2:])
+            items = list(dict.fromkeys(items))[:count]
+            if len(items) < count:
+                for info in weak_phonemes:
+                    items.extend(
+                        sentence_bank.sentences_with_phoneme(info.ipa, limit=count)
+                    )
+                items = list(dict.fromkeys(items))[:count]
+            if not items:
+                items = [sentence_bank.random_sentence() for _ in range(count)]
+            title = f"Read these lines aloud ({title_target})"
+        elif exercise_type == CLUSTER:
+            clusters = cluster_kb.clusters_for_phonemes(keys)
+            if not clusters:
+                clusters = list(cluster_kb.all_clusters().values())
+            random.shuffle(clusters)
+            clusters = clusters[: max(2, count // 2)]
+            target = set()
+            for cluster in clusters:
+                target.update(cluster.phoneme_keys)
+                items.append(", ".join(cluster.example_words[:4]))
+                items.extend(cluster.practice_sentences[:2])
+            keys = sorted(target)
+            names = ", ".join(c.display.split(" (")[0] for c in clusters)
+            title = f"Cluster drill: {names}"
         else:
             raise ValueError(f"Unknown exercise type: {exercise_type}")
 

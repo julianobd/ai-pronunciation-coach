@@ -28,6 +28,29 @@ def test_sentence_exercise_contains_target_sound():
     assert 1 <= len(exercise.items) <= 3
 
 
+def test_sentence_exercise_uses_curated_sentences():
+    info = phoneme_kb.get_info("th")
+    exercise = OfflineProvider().generate_exercise([info], "sentence", count=3)
+    assert all(item in info.practice_sentences for item in exercise.items)
+
+
+def test_conversation_exercise_includes_tongue_twisters():
+    info = phoneme_kb.get_info("th")
+    exercise = OfflineProvider().generate_exercise([info], "conversation", count=4)
+    assert any(item in info.tongue_twisters for item in exercise.items)
+
+
+def test_cluster_exercise():
+    exercise = OfflineProvider().generate_exercise(weak(), "cluster")
+    assert exercise.exercise_type == "cluster"
+    assert exercise.items
+    assert all(isinstance(item, str) and item for item in exercise.items)
+    # target_phonemes are the cluster components — all valid teachable keys
+    assert exercise.target_phonemes
+    assert all(phoneme_kb.get_info(k) for k in exercise.target_phonemes)
+    assert "th" in exercise.target_phonemes  # thr cluster matched the weak "th"
+
+
 def test_interview_progression_and_completion():
     provider = OfflineProvider()
     history = []
