@@ -22,7 +22,7 @@ class AppConfig:
     provider_model: str = ""
     mic_device: int = -1  # -1 = system default
     asr_model_size: str = "base.en"
-    tts_engine: str = "auto"  # auto | silero | sapi
+    tts_engine: str = "auto"  # auto | omnivoice | silero | sapi
     daily_goal_minutes: int = 10
 
     @classmethod

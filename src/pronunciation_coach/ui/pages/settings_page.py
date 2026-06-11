@@ -54,7 +54,7 @@ class SettingsPage(QWidget):
         self.asr_size.setCurrentText(config.asr_model_size)
 
         self.tts_engine = QComboBox()
-        self.tts_engine.addItems(["auto", "silero", "sapi"])
+        self.tts_engine.addItems(["auto", "omnivoice", "silero", "sapi"])
         self.tts_engine.setCurrentText(config.tts_engine)
 
         save_button = QPushButton("Save settings")

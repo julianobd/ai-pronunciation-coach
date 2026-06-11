@@ -20,10 +20,12 @@ dependencies = [
     "jsonschema>=4.21",
     "pyttsx3>=2.90",
 ]
-# torch/torchaudio (Silero neural TTS) are optional: install with .[tts-neural].
-# Without them shadowing uses the Windows SAPI voice automatically.
+# Neural TTS engines are optional: .[tts-omnivoice] (best quality, GPU
+# recommended) or .[tts-neural] (Silero). Without them shadowing uses the
+# Windows SAPI English voice automatically.
 
 [project.optional-dependencies]
+tts-omnivoice = ["omnivoice", "torch>=2.0"]
 tts-neural = ["torch>=2.0", "torchaudio>=2.0"]
 g2p = ["g2p_en>=2.1"]
 dev = ["pytest>=8"]
