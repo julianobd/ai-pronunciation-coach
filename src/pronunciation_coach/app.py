@@ -26,6 +26,7 @@ from .services.shadowing_service import ShadowingService
 from .services.workers import run_in_background, wait_for_workers
 from .speech.asr import FasterWhisperASR
 from .speech.tts import create_tts
+from .ui import theme
 from .ui.main_window import MainWindow
 from .ui.pages.home_page import HomePage
 from .ui.pages.interview_page import InterviewPage
@@ -63,6 +64,7 @@ def main() -> int:
     app.setApplicationName("AI Pronunciation Coach")
     app.setStyle("Fusion")
     app.setPalette(_dark_palette())
+    app.setStyleSheet(theme.GLOBAL_STYLE)
 
     # --- persistence -------------------------------------------------------
     db = Database(db_path())

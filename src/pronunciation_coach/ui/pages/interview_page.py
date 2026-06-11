@@ -31,6 +31,7 @@ class InterviewPage(QWidget):
         self.difficulty = QComboBox()
         self.difficulty.addItems(["easy", "medium", "hard"])
         self.start_button = QPushButton("Start interview")
+        self.start_button.setProperty("variant", "primary")
         self.start_button.clicked.connect(self._start)
 
         header = QHBoxLayout()
@@ -41,8 +42,10 @@ class InterviewPage(QWidget):
         header.addWidget(self.start_button)
 
         self.chat = QTextBrowser()
-        self.chat.setStyleSheet("QTextBrowser { background: #0f172a; border: 1px solid #374151;"
-                                " border-radius: 8px; padding: 8px; }")
+        self.chat.setStyleSheet(
+            f"QTextBrowser {{ background: #0f172a; border: 1px solid {theme.BORDER};"
+            f" border-radius: 10px; padding: 10px; }}"
+        )
 
         self.record = RecordWidget()
         self.record.recording_finished.connect(self._on_recording)

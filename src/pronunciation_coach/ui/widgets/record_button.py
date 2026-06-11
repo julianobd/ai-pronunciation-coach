@@ -27,11 +27,7 @@ class RecordWidget(QWidget):
         self.button = QPushButton("🎙️  Record")
         self.button.setCheckable(True)
         self.button.setMinimumHeight(44)
-        self.button.setStyleSheet(
-            "QPushButton { font-size: 15px; border-radius: 8px; padding: 6px 18px;"
-            " background: #3b82f6; color: white; }"
-            "QPushButton:checked { background: #dc2626; }"
-        )
+        self.button.setProperty("variant", "primary")
         self.button.toggled.connect(self._on_toggle)
 
         self.level = QProgressBar()

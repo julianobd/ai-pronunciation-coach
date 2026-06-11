@@ -12,6 +12,8 @@ from PySide6.QtWidgets import (
     QWidget,
 )
 
+from . import theme
+
 
 class MainWindow(QMainWindow):
     def __init__(self, pages: list[tuple[str, QWidget]], parent=None) -> None:
@@ -22,13 +24,7 @@ class MainWindow(QMainWindow):
         self.sidebar = QListWidget()
         self.sidebar.setFixedWidth(180)
         self.sidebar.setIconSize(QSize(20, 20))
-        self.sidebar.setStyleSheet(
-            "QListWidget { background: #111827; color: #e5e7eb; border: none;"
-            " font-size: 15px; padding-top: 8px; }"
-            "QListWidget::item { padding: 12px 16px; }"
-            "QListWidget::item:selected { background: #3b82f6; color: white;"
-            " border-radius: 6px; }"
-        )
+        self.sidebar.setStyleSheet(theme.SIDEBAR_STYLE)
 
         self.stack = QStackedWidget()
         self._page_names: list[str] = []

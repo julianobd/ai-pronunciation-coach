@@ -61,12 +61,16 @@ On first run the speech recognition model (~75 MB) is downloaded automatically.
 Optional extras:
 
 ```bash
-pip install -e .[tts-neural]   # Silero neural TTS (better voice, needs torch)
-pip install -e .[g2p]          # better IPA for out-of-vocabulary words
-pip install -e .[dev]          # pytest
+pip install -e .[tts-omnivoice]  # OmniVoice neural TTS (best voice, GPU recommended)
+pip install -e .[tts-neural]     # Silero neural TTS (good voice, needs torch)
+pip install -e .[g2p]            # better IPA for out-of-vocabulary words
+pip install -e .[dev]            # pytest
 ```
 
-Without `tts-neural`, shadowing uses the built-in Windows (SAPI) voice.
+Shadowing picks the best installed TTS engine automatically
+(OmniVoice → Silero → Windows SAPI); you can pin one in *Settings →
+Text-to-speech*. Without any neural extra it uses the built-in Windows (SAPI)
+voice, forcing an installed English voice even on non-English Windows.
 
 ## Headless smoke test
 
@@ -86,7 +90,7 @@ python -m pytest
 ```
 src/pronunciation_coach/
 ├── core/          pure analysis logic (IPA, alignment, scoring, metrics)
-├── speech/        ASR (faster-whisper) and TTS (Silero / SAPI)
+├── speech/        ASR (faster-whisper) and TTS (OmniVoice / Silero / SAPI)
 ├── audio/         microphone recording & playback (sounddevice)
 ├── providers/     LLM exercise generation + offline fallback
 ├── persistence/   SQLite (attempts, phoneme stats, history, settings)

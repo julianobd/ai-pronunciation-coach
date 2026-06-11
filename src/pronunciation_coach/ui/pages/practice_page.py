@@ -17,6 +17,7 @@ from ...providers.base import EXERCISE_TYPE_LABELS, EXERCISE_TYPES, Exercise
 from ...services.learning_engine import LearningEngine
 from ...services.practice_service import PracticeService
 from ...services.workers import run_in_background
+from .. import theme
 from ..widgets.record_button import RecordWidget
 from ..widgets.word_feedback import WordFeedbackWidget
 
@@ -36,6 +37,7 @@ class PracticePage(QWidget):
             self.type_combo.addItem(EXERCISE_TYPE_LABELS[ex_type], ex_type)
         self.type_combo.setCurrentIndex(EXERCISE_TYPES.index("sentence"))
         self.new_button = QPushButton("New exercise")
+        self.new_button.setProperty("variant", "primary")
         self.new_button.clicked.connect(self.fetch_exercise)
 
         header = QHBoxLayout()
@@ -45,7 +47,7 @@ class PracticePage(QWidget):
         header.addStretch(1)
 
         self.title_label = QLabel()
-        self.title_label.setStyleSheet("color: #6b7280; font-size: 13px;")
+        self.title_label.setStyleSheet(f"color: {theme.MUTED}; font-size: 13px;")
 
         self.item_label = QLabel("Click 'New exercise' to begin.")
         self.item_label.setWordWrap(True)
@@ -55,6 +57,7 @@ class PracticePage(QWidget):
         self.prev_button = QPushButton("‹ Previous")
         self.next_button = QPushButton("Next ›")
         self.position_label = QLabel("")
+        self.position_label.setStyleSheet(f"color: {theme.MUTED}; padding: 0 8px;")
         self.prev_button.clicked.connect(lambda: self._move(-1))
         self.next_button.clicked.connect(lambda: self._move(1))
         nav = QHBoxLayout()
@@ -68,7 +71,7 @@ class PracticePage(QWidget):
         self.record.recording_finished.connect(self._on_recording)
 
         self.status_label = QLabel("")
-        self.status_label.setStyleSheet("color: #6b7280;")
+        self.status_label.setStyleSheet(f"color: {theme.MUTED};")
 
         self.feedback = WordFeedbackWidget()
         self.service.analysis_ready.connect(self._on_analysis)

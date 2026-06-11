@@ -18,7 +18,7 @@ from PySide6.QtWidgets import (
 from ...core import phoneme_kb
 from ...services.progress_service import ProgressService
 
-pg.setConfigOptions(antialias=True, background="w", foreground="#374151")
+pg.setConfigOptions(antialias=True, background="#1f2937", foreground="#9ca3af")
 
 
 def _days_to_x(days: list[str]) -> list[float]:

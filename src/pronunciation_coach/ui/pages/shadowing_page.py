@@ -32,7 +32,7 @@ class MetricCard(QFrame):
         self.value_label.setStyleSheet("font-size: 26px; font-weight: 700;")
         title_label = QLabel(title)
         title_label.setAlignment(Qt.AlignCenter)
-        title_label.setStyleSheet("color: #6b7280;")
+        title_label.setStyleSheet(f"color: {theme.MUTED};")
         layout = QVBoxLayout(self)
         layout.addWidget(self.value_label)
         layout.addWidget(title_label)
@@ -54,6 +54,7 @@ class ShadowingPage(QWidget):
         self.difficulty = QComboBox()
         self.difficulty.addItems(["easy", "medium", "hard"])
         self.new_button = QPushButton("New sentence")
+        self.new_button.setProperty("variant", "primary")
         self.new_button.clicked.connect(self._new_sentence)
 
         header = QHBoxLayout()
@@ -68,9 +69,13 @@ class ShadowingPage(QWidget):
         self.sentence_label.setStyleSheet("font-size: 22px; font-weight: 600; padding: 14px;")
 
         self.listen_button = QPushButton("▶  Listen")
+        self.listen_button.setProperty("variant", "tonal")
+        self.listen_button.setMinimumHeight(44)
         self.listen_button.clicked.connect(self._play_reference)
         self.listen_button.setEnabled(False)
         self.play_mine_button = QPushButton("▶  My recording")
+        self.play_mine_button.setProperty("variant", "tonal")
+        self.play_mine_button.setMinimumHeight(44)
         self.play_mine_button.clicked.connect(self._play_mine)
         self.play_mine_button.setEnabled(False)
 
@@ -93,9 +98,9 @@ class ShadowingPage(QWidget):
             grid.addWidget(card, 0, column)
 
         self.pauses_label = QLabel("")
-        self.pauses_label.setStyleSheet("color: #6b7280;")
+        self.pauses_label.setStyleSheet(f"color: {theme.MUTED};")
         self.status_label = QLabel("")
-        self.status_label.setStyleSheet("color: #6b7280;")
+        self.status_label.setStyleSheet(f"color: {theme.MUTED};")
 
         self.feedback = WordFeedbackWidget()
 

@@ -17,6 +17,7 @@ from ...audio.recorder import AudioRecorder
 from ...config import PROVIDER_PRESETS, AppConfig
 from ...providers.factory import create_provider
 from ...services.workers import run_in_background
+from .. import theme
 
 
 class SettingsPage(QWidget):
@@ -58,9 +59,10 @@ class SettingsPage(QWidget):
         self.tts_engine.setCurrentText(config.tts_engine)
 
         save_button = QPushButton("Save settings")
+        save_button.setProperty("variant", "primary")
         save_button.clicked.connect(self._save)
         self.saved_label = QLabel("")
-        self.saved_label.setStyleSheet("color: #16a34a;")
+        self.saved_label.setStyleSheet(f"color: {theme.GOOD};")
 
         form = QFormLayout()
         form.addRow(QLabel("<b>AI exercise provider</b>"))
@@ -83,7 +85,7 @@ class SettingsPage(QWidget):
             "using built-in offline exercises."
         )
         note.setWordWrap(True)
-        note.setStyleSheet("color: #6b7280;")
+        note.setStyleSheet(f"color: {theme.MUTED};")
 
         layout = QVBoxLayout(self)
         layout.addLayout(form)

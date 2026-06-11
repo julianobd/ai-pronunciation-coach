@@ -62,10 +62,8 @@ class HomePage(QWidget):
 
         start_button = QPushButton("Start practicing →")
         start_button.setMinimumHeight(46)
-        start_button.setStyleSheet(
-            "QPushButton { font-size: 16px; background: #3b82f6; color: white;"
-            " border-radius: 10px; padding: 8px 20px; }"
-        )
+        start_button.setProperty("variant", "primary")
+        start_button.setStyleSheet("QPushButton { font-size: 16px; border-radius: 10px; }")
         start_button.clicked.connect(self.practice_requested.emit)
 
         layout = QVBoxLayout(self)
